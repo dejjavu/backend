@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de reserva de turnos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h1 class="text-center my-4">Agregar paciente</h1>
+            <form action="/pacientes" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" name="dni" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="calle">Calle:</label>
+                    <input type="text" id="calle" name="domicilio.calle" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="numCalle">Número de calle:</label>
+                    <input type="text" id="numCalle" name="domicilio.numCalle" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="localidad">Localidad:</label>
+                    <input type="text" id="localidad" name="domicilio.localidad" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="provincia">Provincia:</label>
+                    <input type="text" id="provincia" name="domicilio.provincia" class="form-control">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Agregar</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
