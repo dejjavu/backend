@@ -32,5 +32,6 @@ public class Turno {
     @Column(name = "hora")
     private LocalTime hora;
 
+    //HOLA
 
 }
