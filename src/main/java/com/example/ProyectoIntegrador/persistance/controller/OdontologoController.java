@@ -2,7 +2,6 @@ package com.example.ProyectoIntegrador.persistance.controller;
 
 import com.example.ProyectoIntegrador.entities.Odontologo;
 import com.example.ProyectoIntegrador.persistance.service.OdontologoService;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

@@ -1,37 +1,34 @@
 package com.example.ProyectoIntegrador.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import jdk.jfr.Timestamp;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.CreationTimestamp;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
-import java.time.LocalTime;
 
 @Entity
-@Table(name = "turno")
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class Turno {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @CreationTimestamp
+    private LocalDate fechaAltaTurno;
 
+    private LocalDate fechaDeTurno;
     @ManyToOne
-    @JoinColumn(name = "paciente_id")
-    private Paciente paciente;
-
-    @ManyToOne
-    @JoinColumn(name = "odontologo_id")
+    @JoinColumn(name = "odontologo_id", referencedColumnName = "id")
     private Odontologo odontologo;
-
-    @Column(name = "fecha")
-    private LocalDate fecha;
-
-    @Column(name = "hora")
-    private LocalTime hora;
-
-    //HOLA
+    @ManyToOne
+    @JoinColumn(name = "paciente_id", referencedColumnName = "id")
+    private Paciente paciente;
 
 }

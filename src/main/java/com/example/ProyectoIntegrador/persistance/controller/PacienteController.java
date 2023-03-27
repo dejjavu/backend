@@ -5,10 +5,7 @@ import com.example.ProyectoIntegrador.persistance.service.PacienteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 
 @RestController
@@ -24,6 +21,12 @@ public class PacienteController {
     public ResponseEntity<Paciente> guardarPaciente(@RequestBody Paciente paciente) {
 
         return ResponseEntity.ok(pacienteService.guardarPaciente(paciente));
+    }
+
+    @GetMapping
+    public ResponseEntity<?> listarPacientes() {
+
+        return ResponseEntity.ok(pacienteService.findAll());
     }
 
 }

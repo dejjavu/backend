@@ -48,13 +48,14 @@
             <artifactId>vavr</artifactId>
             <version>0.10.2</version>
         </dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
 <!--		<dependency>-->
 <!--			<groupId>org.springframework.security</groupId>-->
 <!--			<artifactId>spring-security-web</artifactId>-->
 <!--			<version>6.0.2</version>-->
 <!--		</dependency>-->
-		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -62,11 +63,8 @@
 			<version>1.18.24</version>
 			<scope>provided</scope>
 		</dependency>
-
-
-
-
 	</dependencies>
+
 
 	<build>
 		<plugins>

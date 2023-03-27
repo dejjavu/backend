@@ -1,30 +1,47 @@
 package com.example.ProyectoIntegrador.persistance.controller;
 
-import com.example.ProyectoIntegrador.entities.Odontologo;
-import com.example.ProyectoIntegrador.entities.Paciente;
 import com.example.ProyectoIntegrador.entities.Turno;
 import com.example.ProyectoIntegrador.persistance.service.TurnoService;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.EntityTransaction;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
+import java.util.List;
 
 @RestController
 @RequestMapping("/turnos")
 @RequiredArgsConstructor
 public class TurnoController {
 
-    @Autowired
-    private TurnoService turnoService;
+    private final TurnoService turnoService;
 
+    private static final org.apache.logging.log4j.Logger log = org.apache.logging.log4j.LogManager.getLogger(TurnoController.class);
+
+    @PostMapping
+    public ResponseEntity<Turno> guardarTurno(@RequestBody Turno turno) {
+        return ResponseEntity.ok(turnoService.guardarTurno(turno));
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Turno> buscarTurno(@PathVariable Long id) {
+        return ResponseEntity.ok(turnoService.buscarTurno(id));
+    }
+
+    @PutMapping
+    public ResponseEntity<Turno> actualizarTurno(@RequestBody Turno turno) {
+        return ResponseEntity.ok(turnoService.actualizarTurno(turno));
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> eliminarTurno(@PathVariable Long id) {
+        turnoService.eliminarTurno(id);
+        return ResponseEntity.ok("Turno eliminado");
+    }
+
+    @GetMapping
+    public ResponseEntity<List<Turno>> listaTurnos(){
+
+        return ResponseEntity.ok(turnoService.findAll());
+    }
 
 }

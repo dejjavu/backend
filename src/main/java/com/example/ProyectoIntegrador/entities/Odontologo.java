@@ -1,30 +1,31 @@
 package com.example.ProyectoIntegrador.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
+@Table(name = "odontologo")
 public class Odontologo {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column
+
     private String nombre;
-    @Column
+
     private String apellido;
-    @Column
-    private String matricula;
 
-    @OneToMany(mappedBy = "odontologo")
-    private List<Turno> turnos;
+    private Integer matricula;
 
-
+    @OneToMany(mappedBy = "odontologo", cascade = CascadeType.ALL)
+    @JsonIgnore
+    private List<Turno> turnos = new ArrayList<>();
 }
