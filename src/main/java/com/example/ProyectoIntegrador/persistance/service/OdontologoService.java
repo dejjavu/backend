@@ -1,9 +1,12 @@
 package com.example.ProyectoIntegrador.persistance.service;
 
 import com.example.ProyectoIntegrador.entities.Odontologo;
+import com.example.ProyectoIntegrador.entities.Paciente;
 import com.example.ProyectoIntegrador.persistance.repository.OdontologoRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 
 @Service
@@ -30,7 +33,7 @@ public class OdontologoService {
         }
         return new Odontologo();
     }
-    public Iterable<Odontologo> findAll() {
+    public List<Odontologo> findAll() {
         return odontologoRepository.findAll();
     }
 }

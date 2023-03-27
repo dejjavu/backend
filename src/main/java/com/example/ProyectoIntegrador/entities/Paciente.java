@@ -16,8 +16,6 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "paciente")
-
 public class Paciente {
 
     @Id
@@ -33,9 +31,8 @@ public class Paciente {
 
     private String dni;
 
-
     @CreationTimestamp
-    private LocalDate fechaAltaPaciente;
+    private LocalDate fechaIngreso;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "domicilio_id", referencedColumnName = "id")

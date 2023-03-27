@@ -1,8 +1,6 @@
 package com.example.ProyectoIntegrador.persistance.controller;
 
 import com.example.ProyectoIntegrador.entities.Odontologo;
-import com.example.ProyectoIntegrador.entities.Paciente;
-import com.example.ProyectoIntegrador.entities.Turno;
 import com.example.ProyectoIntegrador.persistance.service.OdontologoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,7 +40,7 @@ public class OdontologoController {
 
     @GetMapping
     public ResponseEntity<List<Odontologo>> listarPaciente(){
-        return ResponseEntity.ok((List<Odontologo>) odontologoService.findAll());
+        return ResponseEntity.ok(odontologoService.findAll());
     }
 
 }

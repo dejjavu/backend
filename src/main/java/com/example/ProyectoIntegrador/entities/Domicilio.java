@@ -16,7 +16,7 @@ public class Domicilio {
     private Long id;
 
     private String calle;
-    private String numCalle;
+    private Integer numero;
 
     private String localidad;
 

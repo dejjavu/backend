@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 
 @Entity
 @Data
@@ -21,6 +22,7 @@ public class Turno {
     private LocalDate fechaAltaTurno;
 
     private LocalDate fechaDeTurno;
+    private LocalTime horaDeTurno;
     @ManyToOne
     @JoinColumn(name = "odontologo_id", referencedColumnName = "id")
     private Odontologo odontologo;

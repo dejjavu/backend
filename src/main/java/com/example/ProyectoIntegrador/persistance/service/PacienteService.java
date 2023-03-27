@@ -23,7 +23,6 @@ public class PacienteService {
         }
     }
 
-    /////REVISAR ESTO
     public Paciente actualizarPaciente(Paciente paciente) {
         if (pacienteRepository.findById(paciente.getId()).isPresent()) {
             domicilioRepository.save(paciente.getDomicilio());
