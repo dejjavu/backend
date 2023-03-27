@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 
 @RestController
 @RequestMapping("/pacientes")
@@ -19,13 +21,28 @@ public class PacienteController {
 
     @PostMapping
     public ResponseEntity<Paciente> guardarPaciente(@RequestBody Paciente paciente) {
-
         return ResponseEntity.ok(pacienteService.guardarPaciente(paciente));
     }
 
-    @GetMapping
-    public ResponseEntity<?> listarPacientes() {
+    @GetMapping("/{id}")
+    public ResponseEntity<Paciente> buscarPaciente(@PathVariable Long id) {
+        return ResponseEntity.ok(pacienteService.buscarPaciente(id));
+    }
 
+    //revisar
+    @PutMapping
+    public ResponseEntity<Paciente> actualizarPaciente(@RequestBody Paciente paciente) {
+        return ResponseEntity.ok(pacienteService.actualizarPaciente(paciente));
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> eliminarPaciente(@PathVariable Long id) {
+        pacienteService.eliminarPaciente(id);
+        return ResponseEntity.ok("Paciente Eliminado");
+    }
+
+    @GetMapping
+    public ResponseEntity<List<Paciente>> listarPaciente(){
         return ResponseEntity.ok(pacienteService.findAll());
     }
 
