@@ -5,6 +5,7 @@ import com.example.ProyectoIntegrador.entities.Turno;
 import com.example.ProyectoIntegrador.persistance.controller.TurnoController;
 import com.example.ProyectoIntegrador.persistance.repository.TurnoRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
@@ -15,8 +16,11 @@ import java.util.List;
 @RequiredArgsConstructor
 public class TurnoService {
     private static final org.apache.logging.log4j.Logger log = org.apache.logging.log4j.LogManager.getLogger(TurnoController.class);
+    @Autowired
     private final TurnoRepository turnoRepository;
+    @Autowired
     private final OdontologoService odontologoService;
+    @Autowired
     private final PacienteService pacienteService;
     public Turno guardarTurno(Turno turno) {
         odontologoService.buscarOdontologo(turno.getOdontologo().getId());

@@ -29,7 +29,6 @@ public class PacienteController {
         return ResponseEntity.ok(pacienteService.buscarPaciente(id));
     }
 
-    //revisar
     @PutMapping
     public ResponseEntity<Paciente> actualizarPaciente(@RequestBody Paciente paciente) {
         return ResponseEntity.ok(pacienteService.actualizarPaciente(paciente));

@@ -20,7 +20,6 @@ public class Turno {
     private Long id;
     @CreationTimestamp
     private LocalDate fechaAltaTurno;
-
     private LocalDate fechaDeTurno;
     private LocalTime horaDeTurno;
     @ManyToOne

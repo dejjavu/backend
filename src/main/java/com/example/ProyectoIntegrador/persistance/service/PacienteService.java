@@ -4,6 +4,7 @@ import com.example.ProyectoIntegrador.entities.Paciente;
 import com.example.ProyectoIntegrador.persistance.repository.DomicilioRepository;
 import com.example.ProyectoIntegrador.persistance.repository.PacienteRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -11,7 +12,9 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class PacienteService {
+    @Autowired
     private final DomicilioRepository domicilioRepository;
+    @Autowired
     private final PacienteRepository pacienteRepository;
     public Paciente guardarPaciente(Paciente paciente) {
         domicilioRepository.save(paciente.getDomicilio());

@@ -12,6 +12,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/odontologos")
+
 public class OdontologoController {
 
     @Autowired
@@ -40,7 +41,9 @@ public class OdontologoController {
 
     @GetMapping
     public ResponseEntity<List<Odontologo>> listarPaciente(){
-        return ResponseEntity.ok(odontologoService.findAll());
+        return ResponseEntity.ok(odontologoService.listarOdontologo());
     }
+
+
 
 }

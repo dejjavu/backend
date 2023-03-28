@@ -28,4 +28,5 @@ public class Odontologo {
     @OneToMany(mappedBy = "odontologo", cascade = CascadeType.ALL)
     @JsonIgnore
     private List<Turno> turnos = new ArrayList<>();
+
 }

@@ -1,7 +1,5 @@
 package com.example.ProyectoIntegrador.persistance.service;
-
 import com.example.ProyectoIntegrador.entities.Odontologo;
-import com.example.ProyectoIntegrador.entities.Paciente;
 import com.example.ProyectoIntegrador.persistance.repository.OdontologoRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -12,6 +10,7 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class OdontologoService {
+
     private final OdontologoRepository odontologoRepository;
     public Odontologo guardarOdontologo(Odontologo odontologo) {
         return odontologoRepository.save(odontologo);
@@ -25,7 +24,7 @@ public class OdontologoService {
         if (odontologoRepository.findById(odontologo.getId()).isPresent()) {
             return odontologoRepository.save(odontologo);
         }
-        return new Odontologo();
+        return odontologo;
     }
     public Odontologo buscarOdontologo(Long id) {
         if (odontologoRepository.findById(id).isPresent()) {
@@ -33,7 +32,7 @@ public class OdontologoService {
         }
         return new Odontologo();
     }
-    public List<Odontologo> findAll() {
+    public List<Odontologo> listarOdontologo() {
         return odontologoRepository.findAll();
     }
 }

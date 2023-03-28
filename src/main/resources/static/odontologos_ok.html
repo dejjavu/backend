@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clínica Dental</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<section>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="welcome-container">
+                    <h1 class="welcome-text text-center">Bienvenido a Clínica Dental</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#" class="btn btn-lg btn-primary btn-block">ODONTOLOGOS</a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="btn btn-lg btn-success btn-block">TURNOS</a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="btn btn-lg btn-info btn-block">ODONTÓLOGOS</a>
+            </div>
+        </div>
+        <br>
+
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="card-title">Consulte Odontologo</h3>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form id="formulario-odontologo">
+                            <div class="form-group">
+                                <label for="idOdontologo">Buscar por ID:</label>
+                                <input type="text" class="form-control" id="idOdontologo" name="idOdontologo" placeholder="Ingrese el ID del odontologo">
+                            </div>
+                            <button type="button" id="btnBuscar" class="btn btn-primary">Buscar</button>
+                            <button type="button" id="btnEliminar" class="btn btn-primary">Eliminar</button>
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <div class="card-header bg-primary text-white">
+                    <h3 class="card-title">Aregar Odontologo</h3>
+                </div>
+                <br>
+                <form id="formulario">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" class="form-control" id="apellido" name="apellido">
+                    </div>
+                    <div class="form-group">
+                        <label for="matricula">Matricula:</label>
+                        <input type="text" class="form-control" id="matricula" name="dni">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" id="btnEnviar">Enviar</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="card-title">Lista de Odontologos</h3>
+                </div>
+                <div class="table-container">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th class="w-10">ID</th>
+                            <th class="w-20">Nombre</th>
+                            <th class="w-20">Apellido</th>
+                            <th class="w-30">Matricula</th>
+                        </tr>
+                        </thead>
+                        <tbody id="lista-odontologos">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="js/od/odontologo_get.js"></script>
+<script src="js/od/odontologo_get_id.js"></script>
+<script src="js/od/odontologo_del.js"></script>
+<script src="js/od/odontologo_post.js"></script>
+
+</body>
+</html>
