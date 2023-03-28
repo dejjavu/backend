@@ -1,17 +1,8 @@
-// Obtener los elementos del formulario
-const formulario = document.getElementById('formulario');
-const nombre = document.getElementById('nombre');
-const apellido = document.getElementById('apellido');
-const matricula = document.getElementById('matricula');
-
-// Obtener el botón de enviar
 const btnEnviar = document.getElementById('btnEnviar');
 
 // Añadir un evento submit al formulario
 formulario.addEventListener('submit', (event) => {
   event.preventDefault(); // Prevenir el envío por defecto del formulario
-
-  // Crear un objeto con los datos a enviar
 
   const odontologo = {
     nombre: nombre.value,

@@ -1,11 +1,15 @@
 package com.example.ProyectoIntegrador.persistance.controller;
 
 import com.example.ProyectoIntegrador.entities.Odontologo;
+import com.example.ProyectoIntegrador.entities.Turno;
 import com.example.ProyectoIntegrador.persistance.service.OdontologoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
@@ -40,10 +44,15 @@ public class OdontologoController {
     }
 
     @GetMapping
-    public ResponseEntity<List<Odontologo>> listarPaciente(){
+    public ResponseEntity<List<Odontologo>> listarOdontologo(){
         return ResponseEntity.ok(odontologoService.listarOdontologo());
     }
 
+    @GetMapping("/{id}/turnos")
+    public ResponseEntity<List<Turno>> getTurnosByOdontologoId(@PathVariable Long id) {
+        List<Turno> turnos = odontologoService.getTurnosByOdontologoId(id);
+        return ResponseEntity.ok(turnos);
+    }
 
 
 }

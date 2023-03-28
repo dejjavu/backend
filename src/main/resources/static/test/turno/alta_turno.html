@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de pacientes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="mb-4">Alta de pacientes</h1>
+    <form id="formulario">
+        <div class="mb-3">
+            <div class="mb-3">
+                <label for="fechaturno" class="form-label">Fecha de Turno</label>
+                <input type="text" id="fechaturno" name="fechaturno" class="fechaturno" required>
+            </div>
+
+            <label for="pacienteid" class="form-label">Paciente ID</label>
+            <input type="text" id="pacienteid" name="pacienteid" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="odontologoid" class="form-label">Odontologo ID</label>
+            <input type="text" id="odontologoid" name="odontologoid" class="form-control" required>
+        </div>
+
+
+
+
+        <button type="submit" class="btn btn-primary" id="btnEnviar">Enviar</button>
+    </form>
+</div>
+
+<script src="/test/turno/alta_turno.js"></script>
+</body>
+</html>

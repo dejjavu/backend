@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Turnos de Odontólogo</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="my-4">Turnos de Odontólogo</h1>
+    <form class="mb-4">
+        <div class="row">
+            <div class="col-sm-4">
+                <label for="odontologo-id" class="form-label">ID del odontólogo:</label>
+                <input type="text" class="form-control" id="odontologo-id">
+            </div>
+            <div class="col-sm-8 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary">Buscar</button>
+            </div>
+        </div>
+    </form>
+    <table id="lista-odontologos" class="table">
+        <thead>
+        <tr>
+            <th>ID Turno</th>
+            <th>ID Odontólogo</th>
+            <th>Nombre Odontólogo</th>
+            <th>ID Paciente</th>
+            <th>Nombre Paciente</th>
+            <th>Fecha de Alta del Turno</th>
+            <th>Fecha del Turno</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Las filas de la tabla se generarán dinámicamente con JavaScript -->
+        </tbody>
+    </table>
+</div>
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js"></script>
+<script src="/test/odontologo/lista_turnos_por_id_odontologo.js"></script>
+</body>
+</html>

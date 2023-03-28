@@ -1,15 +1,3 @@
-// Obtener los elementos del formulario
-const formulario = document.getElementById('formulario');
-const nombre = document.getElementById('nombre');
-const apellido = document.getElementById('apellido');
-const dni = document.getElementById('dni');
-const calle = document.getElementById('calle');
-const edad = document.getElementById('edad');
-const numero = document.getElementById('numero');
-const localidad = document.getElementById('localidad');
-const provincia = document.getElementById('provincia');
-
-// Obtener el botón de enviar
 const btnEnviar = document.getElementById('btnEnviar');
 
 // Añadir un evento submit al formulario

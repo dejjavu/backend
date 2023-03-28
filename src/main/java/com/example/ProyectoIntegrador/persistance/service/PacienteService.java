@@ -1,6 +1,8 @@
 package com.example.ProyectoIntegrador.persistance.service;
 
+import com.example.ProyectoIntegrador.entities.Odontologo;
 import com.example.ProyectoIntegrador.entities.Paciente;
+import com.example.ProyectoIntegrador.entities.Turno;
 import com.example.ProyectoIntegrador.persistance.repository.DomicilioRepository;
 import com.example.ProyectoIntegrador.persistance.repository.PacienteRepository;
 import lombok.RequiredArgsConstructor;
@@ -41,5 +43,10 @@ public class PacienteService {
     }
     public List<Paciente> findAll() {
         return pacienteRepository.findAll();
+    }
+
+    public List<Turno> getTurnosByPacienteId(Long odontologoId) {
+        Paciente paciente = pacienteRepository.findById(odontologoId).orElse(null);
+        return paciente.getTurnos();
     }
 }

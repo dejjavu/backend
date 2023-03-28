@@ -1,6 +1,7 @@
 package com.example.ProyectoIntegrador.persistance.controller;
 
 import com.example.ProyectoIntegrador.entities.Paciente;
+import com.example.ProyectoIntegrador.entities.Turno;
 import com.example.ProyectoIntegrador.persistance.service.PacienteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,4 +46,9 @@ public class PacienteController {
         return ResponseEntity.ok(pacienteService.findAll());
     }
 
+    @GetMapping("/{id}/turnos")
+    public ResponseEntity<List<Turno>> getTurnosByOdontologoId(@PathVariable Long id) {
+        List<Turno> turnos = pacienteService.getTurnosByPacienteId(id);
+        return ResponseEntity.ok(turnos);
+    }
 }
