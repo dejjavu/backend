@@ -1,5 +1,6 @@
 package com.example.ProyectoIntegrador.entities;
 
+import com.example.ProyectoIntegrador.DTO.TurnoDTO;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -25,7 +26,7 @@ public class Odontologo {
 
     private Integer matricula;
 
-    @OneToMany(mappedBy = "odontologo", cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL)
     @JsonIgnore
     private List<Turno> turnos = new ArrayList<>();
 

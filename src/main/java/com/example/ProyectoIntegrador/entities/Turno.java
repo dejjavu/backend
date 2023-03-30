@@ -21,7 +21,7 @@ public class Turno {
     @CreationTimestamp
     private LocalDate fechaAltaTurno;
     private LocalDate fechaDeTurno;
-//    private LocalTime horaDeTurno;
+    private LocalTime horaDeTurno;
     @ManyToOne
     @JoinColumn(name = "odontologo_id", referencedColumnName = "id")
     private Odontologo odontologo;
