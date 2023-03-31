@@ -24,10 +24,11 @@ public class Odontologo {
 
     private String apellido;
 
-    private Integer matricula;
+    private String matricula;
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "odontologo", cascade = CascadeType.ALL)
     @JsonIgnore
     private List<Turno> turnos = new ArrayList<>();
+
 
 }

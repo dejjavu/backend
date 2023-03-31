@@ -470,3 +470,268 @@
 [2023-03-30 04:01:53] [ INFO ] [OdontologoService:22] Guardando Odontologo.
 [2023-03-30 04:01:53] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=Oscar, apellido=Gomez, matricula=452145, turnos=[])
 [2023-03-30 04:01:58] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-30, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-30 04:03:02] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-30 04:03:02] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=Oscar, apellido=Gomez, matricula=452145, turnos=[])
+[2023-03-30 04:03:07] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-30, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-30 04:05:33] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-30 04:05:33] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=Oscar, apellido=Gomez, matricula=452145, turnos=[])
+[2023-03-30 04:05:40] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-30, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-30 04:06:48] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-30 04:06:48] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=Oscar, apellido=Gomez, matricula=452145, turnos=[])
+[2023-03-30 04:06:53] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-30, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-30 04:11:57] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-30 04:11:57] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=Oscar, apellido=Gomez, matricula=452145, turnos=[])
+[2023-03-30 04:12:00] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-30, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-30 04:16:33] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-30 04:16:33] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=Oscar, apellido=Gomez, matricula=452145, turnos=[])
+[2023-03-30 04:18:18] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-30 04:18:18] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=Oscar, apellido=Gomez, matricula=452145, turnos=[])
+[2023-03-30 04:19:01] [ INFO ] [OdontologoService:47] Odontologo ID 1 actualizado con éxito.
+[2023-03-30 04:19:24] [ INFO ] [OdontologoService:47] Odontologo ID 1 actualizado con éxito.
+[2023-03-30 04:19:29] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-30 04:19:29] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=2, nombre=Oscar, apellido=Gomez, matricula=452145, turnos=[])
+[2023-03-30 04:19:45] [ INFO ] [OdontologoService:47] Odontologo ID 1 actualizado con éxito.
+[2023-03-30 04:19:50] [ INFO ] [OdontologoService:38] Odontologo ID 2 eliminado con éxito.
+[2023-03-30 04:20:27] [ INFO ] [PacienteService:33] Paciente ID 1 paciente con éxito.
+[2023-03-30 04:20:35] [ ERROR] [TurnoService:33] Se produjo un error
+[2023-03-30 04:20:37] [ ERROR] [TurnoService:33] Se produjo un error
+[2023-03-30 04:20:52] [ ERROR] [TurnoService:33] Se produjo un error
+[2023-03-30 04:21:04] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-30 04:21:04] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=Oscar, apellido=Gomez, matricula=452145, turnos=[])
+[2023-03-30 04:21:10] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-30, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-30 04:21:22] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-30 04:21:22] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=2, nombre=Oscar, apellido=Gomez, matricula=452145, turnos=[])
+[2023-03-30 04:21:27] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=2, fechaAltaTurno=2023-03-30, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=2, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-30 04:21:56] [ INFO ] [TurnoService:53] Turno ID 1 actualizado con éxito.
+[2023-03-31 04:08:19] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-31 04:08:19] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=, apellido=Gomez, matricula=452145, turnos=[])
+[2023-03-31 04:08:54] [ INFO ] [OdontologoService:38] Odontologo ID 1 eliminado con éxito.
+[2023-03-31 04:16:08] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-31 04:16:08] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=Juan, apellido=Gomez, matricula=452145, turnos=[])
+[2023-03-31 04:23:01] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-31 04:23:01] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 04:23:57] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-31 04:23:57] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 04:24:10] [ ERROR] [TurnoService:33] Se produjo un error
+[2023-03-31 04:24:34] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=2, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 04:24:52] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=3, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 04:24:53] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=4, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 04:24:54] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=5, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 04:26:36] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-31 04:26:36] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 04:26:42] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 04:28:22] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-03-31 04:28:22] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 04:28:26] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 04:31:34] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 04:31:34] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 04:31:40] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 04:32:47] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 04:32:47] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 04:32:51] [ INFO ] [TurnoService:31] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 04:48:48] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 04:48:48] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 04:48:53] [ INFO ] [TurnoService:42] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 04:50:02] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 04:50:02] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 04:50:05] [ INFO ] [TurnoService:42] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:00:07] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:00:07] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 05:00:11] [ INFO ] [TurnoService:38] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:01:32] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:01:32] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 05:01:35] [ INFO ] [TurnoService:38] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:05:39] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:05:39] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 05:05:42] [ INFO ] [TurnoService:38] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:06:29] [ INFO ] [TurnoService:38] Turno guardado con éxito Turno(id=2, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:14:30] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:14:31] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 05:14:37] [ INFO ] [TurnoService:38] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:17:27] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:17:27] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 05:17:31] [ INFO ] [TurnoService:39] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:19:37] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:19:37] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 05:19:40] [ INFO ] [TurnoService:39] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:22:46] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:22:46] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 05:22:49] [ INFO ] [TurnoService:39] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:24:37] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:24:37] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 05:24:40] [ INFO ] [TurnoService:39] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:25:53] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:25:53] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 05:25:56] [ INFO ] [TurnoService:38] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:26:44] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:26:44] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 05:26:46] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:27:19] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=2, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:27:56] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:27:56] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=452145, turnos=[])
+[2023-03-31 05:28:02] [ INFO ] [TurnoService:38] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:28:05] [ INFO ] [TurnoService:38] Turno guardado con éxito Turno(id=2, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:29:04] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:29:04] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=2, nombre=asf, apellido=sf, matricula=213321, turnos=[])
+[2023-03-31 05:29:19] [ INFO ] [TurnoService:38] Turno guardado con éxito Turno(id=3, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=2, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=3, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:45:11] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:45:11] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=213321, turnos=[])
+[2023-03-31 05:46:06] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:46:06] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=2, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 05:46:09] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 05:46:09] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323123321, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 05:46:13] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 05:46:13] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=2, nombre=MaDrcela, apellido=asf, dni=3231233321, fechaIngreso=2023-03-31, domicilio=Domicilio(id=2, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 05:47:07] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 05:47:07] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=3, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=3, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 05:47:09] [ INFO ] [PacienteService:37] Paciente ID 3 eliminado con éxito.
+[2023-03-31 05:47:17] [ INFO ] [TurnoService:38] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:54:05] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:54:05] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 05:54:08] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 05:54:08] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 05:54:10] [ INFO ] [TurnoService:37] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:58:25] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:58:25] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 05:58:27] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 05:58:27] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 05:58:29] [ INFO ] [TurnoService:36] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 05:59:02] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 05:59:02] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 05:59:04] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 05:59:04] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 05:59:06] [ INFO ] [TurnoService:36] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 06:03:32] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:03:32] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 06:03:34] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 06:03:34] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 06:03:37] [ INFO ] [TurnoService:36] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 06:05:31] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:05:31] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 06:05:33] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 06:05:33] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 06:05:39] [ INFO ] [TurnoService:36] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 06:08:12] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:08:12] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 06:08:14] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 06:08:14] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 06:08:20] [ INFO ] [TurnoService:36] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 06:11:12] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:11:12] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 06:11:15] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 06:11:15] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 06:12:36] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:12:36] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 06:12:38] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 06:12:38] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 06:12:41] [ INFO ] [TurnoService:37] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 06:14:24] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:14:24] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 06:14:25] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 06:14:25] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 06:14:27] [ INFO ] [TurnoService:37] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 06:16:09] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:16:09] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 06:16:10] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 06:16:10] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 06:16:12] [ INFO ] [TurnoService:37] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 06:18:11] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:18:11] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 06:18:13] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 06:18:13] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 06:18:15] [ INFO ] [TurnoService:36] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 06:20:00] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:20:00] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=asf, apellido=sf, matricula=2123321, turnos=[])
+[2023-03-31 06:20:01] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 06:20:01] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=32312333221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 06:20:04] [ INFO ] [TurnoService:36] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 06:26:56] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:26:56] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=2, nombre=asf, apellido=sf, matricula=21234321, turnos=[])
+[2023-03-31 06:28:09] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:10] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:18] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:19] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:20] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:21] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:21] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:22] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:22] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:23] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:24] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:25] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:51] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:28:52] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:29:24] [ INFO ] [OdontologoService:39] Odontologo ID 2 eliminado con éxito.
+[2023-03-31 06:29:26] [ INFO ] [OdontologoService:39] Odontologo ID 1 eliminado con éxito.
+[2023-03-31 06:29:30] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:29:30] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=3, nombre=asf, apellido=sf, matricula=21234321, turnos=[])
+[2023-03-31 06:29:38] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:29:38] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=4, nombre=asf, apellido=sf, matricula=9999999, turnos=[])
+[2023-03-31 06:31:18] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:31:19] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:31:20] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:32:20] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:32:21] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:32:21] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:32:34] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:32:35] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:32:35] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:33:16] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:33:17] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:33:18] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:33:19] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:33:19] [ INFO ] [OdontologoService:48] Odontologo ID 4 actualizado con éxito.
+[2023-03-31 06:34:56] [ INFO ] [OdontologoService:39] Odontologo ID 3 eliminado con éxito.
+[2023-03-31 06:34:57] [ INFO ] [OdontologoService:39] Odontologo ID 4 eliminado con éxito.
+[2023-03-31 06:35:08] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:35:08] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=5, nombre=OD1, apellido=OD1, matricula=1, turnos=[])
+[2023-03-31 06:35:19] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:35:19] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=6, nombre=OD2, apellido=OD2, matricula=2, turnos=[])
+[2023-03-31 06:35:26] [ INFO ] [OdontologoService:48] Odontologo ID 6 actualizado con éxito.
+[2023-03-31 06:35:27] [ INFO ] [OdontologoService:48] Odontologo ID 6 actualizado con éxito.
+[2023-03-31 06:36:19] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:36:20] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:36:20] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:37:56] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:37:57] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:37:57] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:42:10] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:42:14] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:42:14] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:42:15] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:42:18] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:42:21] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:42:25] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:42:44] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:43:40] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:43:48] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:43:51] [ INFO ] [OdontologoService:48] Odontologo ID 5 actualizado con éxito.
+[2023-03-31 06:51:52] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:51:52] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=1, apellido=1, matricula=1, turnos=[])
+[2023-03-31 06:52:01] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:52:01] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=2, nombre=2, apellido=2, matricula=2, turnos=[])
+[2023-03-31 06:53:27] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:53:31] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:53:40] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:53:41] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 06:54:30] [ INFO ] [OdontologoService:39] Odontologo ID 2 eliminado con éxito.
+[2023-03-31 06:54:44] [ INFO ] [OdontologoService:39] Odontologo ID 1 eliminado con éxito.
+[2023-03-31 06:54:51] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:54:51] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=3, nombre=1, apellido=1, matricula=1, turnos=[])
+[2023-03-31 06:54:55] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 06:54:55] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=4, nombre=2, apellido=2, matricula=2, turnos=[])
+[2023-03-31 06:55:08] [ INFO ] [OdontologoService:48] Odontologo ID 3 actualizado con éxito.
+[2023-03-31 06:55:11] [ INFO ] [OdontologoService:48] Odontologo ID 3 actualizado con éxito.
+[2023-03-31 06:55:12] [ INFO ] [OdontologoService:48] Odontologo ID 3 actualizado con éxito.
+[2023-03-31 06:55:13] [ INFO ] [OdontologoService:48] Odontologo ID 3 actualizado con éxito.
+[2023-03-31 07:00:23] [ INFO ] [OdontologoService:48] Odontologo ID 3 actualizado con éxito.
+[2023-03-31 07:00:23] [ INFO ] [OdontologoService:48] Odontologo ID 3 actualizado con éxito.
+[2023-03-31 07:00:28] [ INFO ] [OdontologoService:48] Odontologo ID 3 actualizado con éxito.
+[2023-03-31 07:00:28] [ INFO ] [OdontologoService:48] Odontologo ID 3 actualizado con éxito.
+[2023-03-31 07:03:20] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 07:03:21] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=1, apellido=1, matricula=1, turnos=[])
+[2023-03-31 07:03:26] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 07:03:26] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=2, nombre=2, apellido=2, matricula=2, turnos=[])
+[2023-03-31 07:03:38] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 07:03:41] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 07:03:49] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.

@@ -2,29 +2,34 @@ package com.example.ProyectoIntegrador.persistance.controller;
 import com.example.ProyectoIntegrador.DTO.TurnoDTO;
 import com.example.ProyectoIntegrador.entities.Turno;
 import com.example.ProyectoIntegrador.persistance.repository.TurnoRepository;
+import com.example.ProyectoIntegrador.persistance.service.OdontologoService;
 import com.example.ProyectoIntegrador.persistance.service.TurnoService;
-import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
+
+import lombok.NoArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/turnos")
-@RequiredArgsConstructor
+@NoArgsConstructor
 public class TurnoController {
-
-    private final TurnoService turnoService;
+@Autowired
+    private  TurnoService turnoService;
+    @Autowired
+    private  OdontologoService odontologoService;
 
     private static final org.apache.logging.log4j.Logger log = org.apache.logging.log4j.LogManager.getLogger(TurnoController.class);
-    private final TurnoRepository turnoRepository;
+    private  TurnoRepository turnoRepository;
     private TurnoDTO Turno;
 
+
     @PostMapping
-    public ResponseEntity<Turno> guardarTurno(@RequestBody Turno turno) throws Exception {
-        return ResponseEntity.ok(turnoService.guardarTurno(turno));
+    public ResponseEntity<TurnoDTO> guardarTurno(@RequestBody Turno turno) throws Exception {
+        TurnoDTO turnoGuardado = turnoService.guardarTurno(turno);
+        return ResponseEntity.ok(turnoGuardado);
     }
 
     @GetMapping("/{id}")
@@ -51,4 +56,15 @@ public class TurnoController {
         return ResponseEntity.ok(turnoService.listarTurnos());
     }
 
+    @GetMapping("/od/{id}")
+    public ResponseEntity<List<TurnoDTO>> obtenerTurnosPorOdontologo(@PathVariable Long id) {
+        List<TurnoDTO> turnosDTO = turnoService.turnosPorIDOdontologo(id);
+        return ResponseEntity.ok(turnosDTO);
+    }
+
+    @GetMapping("/pa/{id}/")
+    public ResponseEntity<List<TurnoDTO>> obtenerTurnosPorPaciente(@PathVariable Long id) {
+        List<TurnoDTO> turnosDTO = turnoService.turnosPorIDPaciente(id);
+        return ResponseEntity.ok(turnosDTO);
+    }
 }

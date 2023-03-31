@@ -1,9 +1,14 @@
 package com.example.ProyectoIntegrador.persistance.service;
 
 import com.example.ProyectoIntegrador.DTO.TurnoDTO;
+import com.example.ProyectoIntegrador.entities.Odontologo;
+import com.example.ProyectoIntegrador.entities.Paciente;
 import com.example.ProyectoIntegrador.entities.Turno;
+import com.example.ProyectoIntegrador.persistance.repository.OdontologoRepository;
+import com.example.ProyectoIntegrador.persistance.repository.PacienteRepository;
 import com.example.ProyectoIntegrador.persistance.repository.TurnoRepository;
 import lombok.extern.log4j.Log4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
@@ -13,18 +18,22 @@ import java.util.List;
 
 
 @Service
+
 @Log4j
 
 public class TurnoService {
+    @Autowired
+    private PacienteRepository pacienteRepository;
 
-    private final TurnoRepository  turnoRepository;
 
-    public TurnoService(TurnoRepository turnoRepository) {
-        this.turnoRepository = turnoRepository;
-    }
+    @Autowired
+    private TurnoRepository turnoRepository;
 
-    public Turno guardarTurno(Turno turno) throws Exception {
+    @Autowired
+    private OdontologoRepository odontologoRepository;
 
+
+    public TurnoDTO guardarTurno(Turno turno) throws Exception {
         Turno turnoGuardado;
         try {
             turnoGuardado = turnoRepository.save(turno);
@@ -33,16 +42,16 @@ public class TurnoService {
             log.error("Se produjo un error");
             throw new Exception("Error al guardar Turno.");
         }
-        return turnoGuardado;
+        return toDTO(turnoGuardado);
     }
 
     public void eliminarTurno(Long id) throws Exception {
         try {
-            if (turnoRepository.findById(id).isPresent()){
+            if (turnoRepository.findById(id).isPresent()) {
                 turnoRepository.deleteById(id);
-                log.info("Turno ID " + id +" eliminado con éxito.");
+                log.info("Turno ID " + id + " eliminado con éxito.");
             }
-        } catch (Exception e){
+        } catch (Exception e) {
             log.error("No se pudo eliminar el turno ID " + id);
             throw new Exception("Error al eliminar Turno.");
         }
@@ -50,7 +59,7 @@ public class TurnoService {
 
     public Turno actualizarTurno(Turno turno) throws Exception {
         if (turnoRepository.findById(turno.getId()).isPresent()) {
-            log.info("Turno ID " + turno.getId() +" actualizado con éxito.");
+            log.info("Turno ID " + turno.getId() + " actualizado con éxito.");
             return (turnoRepository.save(turno));
         }
         throw new Exception("Turno no encontrado");
@@ -60,7 +69,7 @@ public class TurnoService {
         if (turnoRepository.findById(id).isPresent()) {
             return toDTO(turnoRepository.findById(id).get());
         }
-                throw new Exception("Turno no encontrado");
+        throw new Exception("Turno no encontrado");
     }
 
     public List<TurnoDTO> listarTurnos() {
@@ -97,4 +106,53 @@ public class TurnoService {
         }
         return turnosDTO;
     }
+
+    public List<TurnoDTO> turnosPorIDOdontologo(Long id) {
+        Odontologo odontologo = odontologoRepository.findById(id).orElse(null);
+        List<TurnoDTO> turnosOdontologoDTO = new ArrayList<>();
+
+        if (odontologo != null) {
+            List<Turno> turnosOdontologo = turnoRepository.findByOdontologo(odontologo);
+            for (Turno turno : turnosOdontologo) {
+                TurnoDTO turnoDTO = new TurnoDTO(turno.getId(),
+                        turno.getFechaAltaTurno().toString(),
+                        turno.getFechaDeTurno().toString(),
+                        turno.getHoraDeTurno().toString(),
+                        turno.getPaciente().getNombre(),
+                        turno.getPaciente().getApellido(),
+                        turno.getPaciente().getId(),
+                        turno.getOdontologo().getNombre(),
+                        turno.getOdontologo().getApellido(),
+                        turno.getOdontologo().getId());
+                turnosOdontologoDTO.add(turnoDTO);
+            }
+        }
+
+        return turnosOdontologoDTO;
+    }
+
+    public List<TurnoDTO> turnosPorIDPaciente(Long id) {
+        Paciente paciente = pacienteRepository.findById(id).orElse(null);
+        List<TurnoDTO> turnosPacienteDTO = new ArrayList<>();
+
+        if (paciente != null) {
+            List<Turno> turnosPaciente = turnoRepository.findByPaciente(paciente);
+            for (Turno turno : turnosPaciente) {
+                TurnoDTO turnoDTO = new TurnoDTO(turno.getId(),
+                        turno.getFechaAltaTurno().toString(),
+                        turno.getFechaDeTurno().toString(),
+                        turno.getHoraDeTurno().toString(),
+                        turno.getPaciente().getNombre(),
+                        turno.getPaciente().getApellido(),
+                        turno.getPaciente().getId(),
+                        turno.getOdontologo().getNombre(),
+                        turno.getOdontologo().getApellido(),
+                        turno.getOdontologo().getId());
+                turnosPacienteDTO.add(turnoDTO);
+            }
+        }
+
+        return turnosPacienteDTO;
+    }
+
 }

@@ -1,6 +1,7 @@
 package com.example.ProyectoIntegrador.persistance.service;
 import com.example.ProyectoIntegrador.DTO.TurnoDTO;
 import com.example.ProyectoIntegrador.entities.Odontologo;
+import com.example.ProyectoIntegrador.entities.Paciente;
 import com.example.ProyectoIntegrador.entities.Turno;
 import com.example.ProyectoIntegrador.persistance.repository.OdontologoRepository;
 import lombok.RequiredArgsConstructor;
@@ -66,4 +67,9 @@ public class OdontologoService {
         Odontologo odontologo = odontologoRepository.findById(odontologoId).orElse(null);
             return odontologo.getTurnos();
      }
+
+
+    public Odontologo buscarOdontologoPorMatricula(String matricula) {
+        return odontologoRepository.findByMatricula(matricula);
+    }
 }

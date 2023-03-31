@@ -1,36 +1,40 @@
 package com.example.ProyectoIntegrador.persistance.service;
-
-import com.example.ProyectoIntegrador.entities.Odontologo;
 import com.example.ProyectoIntegrador.entities.Paciente;
-import com.example.ProyectoIntegrador.entities.Turno;
-import com.example.ProyectoIntegrador.persistance.repository.DomicilioRepository;
 import com.example.ProyectoIntegrador.persistance.repository.PacienteRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 
 @Service
 @Log4j
 @RequiredArgsConstructor
 public class PacienteService {
-    @Autowired
-    private final DomicilioRepository domicilioRepository;
-    @Autowired
-    private final PacienteRepository pacienteRepository;
-    public Paciente guardarPaciente(Paciente paciente) {
-        domicilioRepository.save(paciente.getDomicilio());
 
-        return pacienteRepository.save(paciente);
+    private final PacienteRepository pacienteRepository;
+
+    public Paciente guardarPaciente(Paciente paciente) throws Exception {
+        Paciente pacienteGuardado;
+        try {
+            log.info("Guardando Paciente.");
+            pacienteGuardado = pacienteRepository.save(paciente);
+            log.info("Paciente guardado con éxito " + pacienteGuardado);
+        } catch (Exception e) {
+            log.error("Se produjo un error");
+            throw new Exception("Error al guardar Paciente.");
+        }
+        return pacienteGuardado;
     }
-    public void eliminarOdontologo(Long id) throws Exception {
-        Odontologo odontologoEliminado;
+
+
+    public void eliminarPaciente(Long id) throws Exception {
+        Paciente pacienteEliminado;
         try {
             if (pacienteRepository.findById(id).isPresent()){
                 pacienteRepository.deleteById(id);
-                log.info("Paciente ID " + id +" paciente con éxito.");
+                log.info("Paciente ID " + id +" eliminado con éxito.");
             }
         }catch (Exception e){
             log.error("No se pudo eliminar el Paciente ID " + id);
@@ -39,27 +43,26 @@ public class PacienteService {
 
     public Paciente actualizarPaciente(Paciente paciente) {
         if (pacienteRepository.findById(paciente.getId()).isPresent()) {
-            domicilioRepository.save(paciente.getDomicilio());
+            log.info("Paciente ID " + paciente.getId() +" actualizado con éxito.");
             return pacienteRepository.save(paciente);
+
         }
-        return new Paciente();
+        return paciente;
     }
+
     public Paciente buscarPaciente(Long id) {
         if (pacienteRepository.findById(id).isPresent()) {
             return pacienteRepository.findById(id).get();
         }
         return new Paciente();
     }
-    public List<Paciente> findAll() {
+
+    public List<Paciente> listarPaciente() {
         return pacienteRepository.findAll();
     }
 
-
-
-    public List<Turno> turnosPorIdPaciente(Long pacienteId) {
-        Paciente paciente = pacienteRepository.findById(pacienteId).orElse(null);
-        return paciente.getTurnos();
+    public Paciente buscarPacientePorDNI(String dni) {
+        return pacienteRepository.findByDNI(dni);
     }
-
-
 }
+
