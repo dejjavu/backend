@@ -735,3 +735,19 @@
 [2023-03-31 07:03:38] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
 [2023-03-31 07:03:41] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
 [2023-03-31 07:03:49] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-03-31 07:07:36] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 07:07:36] [ ERROR] [PacienteService:25] Se produjo un error
+[2023-03-31 07:08:20] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 07:08:20] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=2, nombre=MaDrcela, apellido=asf, dni=323123332221, fechaIngreso=2023-03-31, domicilio=Domicilio(id=2, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 07:08:32] [ INFO ] [PacienteService:37] Paciente ID 2 eliminado con éxito.
+[2023-03-31 07:08:34] [ INFO ] [PacienteService:37] Paciente ID 1 eliminado con éxito.
+[2023-03-31 07:08:40] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 07:08:40] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=3, nombre=MaDrcela, apellido=asf, dni=1, fechaIngreso=2023-03-31, domicilio=Domicilio(id=3, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 07:08:48] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 07:08:48] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=4, nombre=MaDrcela, apellido=asf, dni=2, fechaIngreso=2023-03-31, domicilio=Domicilio(id=4, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-03-31 07:09:00] [ INFO ] [PacienteService:46] Paciente ID 4 actualizado con éxito.
+[2023-03-31 07:09:02] [ INFO ] [PacienteService:46] Paciente ID 4 actualizado con éxito.
+[2023-03-31 07:09:10] [ INFO ] [PacienteService:46] Paciente ID 4 actualizado con éxito.
+[2023-03-31 07:09:15] [ INFO ] [PacienteService:46] Paciente ID 4 actualizado con éxito.
+[2023-03-31 07:09:16] [ INFO ] [PacienteService:46] Paciente ID 4 actualizado con éxito.
+[2023-03-31 07:09:16] [ INFO ] [PacienteService:46] Paciente ID 4 actualizado con éxito.

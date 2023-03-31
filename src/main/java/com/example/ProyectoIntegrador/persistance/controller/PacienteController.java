@@ -1,8 +1,5 @@
 package com.example.ProyectoIntegrador.persistance.controller;
-
-import com.example.ProyectoIntegrador.entities.Odontologo;
 import com.example.ProyectoIntegrador.entities.Paciente;
-import com.example.ProyectoIntegrador.entities.Turno;
 import com.example.ProyectoIntegrador.persistance.repository.PacienteRepository;
 import com.example.ProyectoIntegrador.persistance.service.PacienteService;
 import lombok.RequiredArgsConstructor;
@@ -83,13 +80,13 @@ public class PacienteController {
     public ResponseEntity<Object> eliminarPaciente(@PathVariable Long id) {
         Long pacienteId = pacienteService.buscarPaciente(id).getId();
         if (pacienteId == null) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("El odontólogo con el ID " + id + " no existe");
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("El paciente con el ID " + id + " no existe");
         } else {
             try {
                 pacienteService.eliminarPaciente(id);
-                return ResponseEntity.status(HttpStatus.OK).body("El odontólogo con el ID " + id + " ha sido eliminado correctamente");
+                return ResponseEntity.status(HttpStatus.OK).body("El paciente con el ID " + id + " ha sido eliminado correctamente");
             } catch (Exception e) {
-                return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Ha ocurrido un error al eliminar el odontólogo con el ID " + id);
+                return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Ha ocurrido un error al eliminar el paciente con el ID " + id);
             }
         }
     }
@@ -101,7 +98,7 @@ public class PacienteController {
             return ResponseEntity.status(HttpStatus.OK).body(pacienteService.listarPaciente());
         } catch (Exception e) {
             ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(singletonList("Ha ocurrido un error al procesar la solicitud"));
-            throw new RuntimeException("Error al listar odontólogos", e);
+            throw new RuntimeException("Error al listar pacientes", e);
         }
     }
 
