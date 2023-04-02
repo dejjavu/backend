@@ -13,6 +13,7 @@ import java.time.LocalTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(name = "turnos")
 public class Turno {
 
     @Id

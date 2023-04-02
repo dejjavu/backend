@@ -1,6 +1,5 @@
 package com.example.ProyectoIntegrador.persistance.repository;
 
-import com.example.ProyectoIntegrador.entities.Odontologo;
 import com.example.ProyectoIntegrador.entities.Paciente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

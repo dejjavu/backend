@@ -13,10 +13,10 @@ fetch('/pacientes')
         <td>${paciente.nombre}</td>
         <td>${paciente.apellido}</td>
         <td>${paciente.domicilio.calle}</td>
-                <td>${paciente.domicilio.numero}</td>
-                        <td>${paciente.domicilio.localidad}</td>
-                                <td>${paciente.domicilio.provincia}</td>
-                                        <td>${paciente.fechaAlta}</td>
+        <td>${paciente.domicilio.numero}</td>
+        <td>${paciente.domicilio.localidad}</td>
+        <td>${paciente.domicilio.provincia}</td>
+        <td>${paciente.fechaAlta}</td>
         <td><button class="btn btn-danger" data-id="${paciente.id}">Eliminar</button></td>
 `;
       tableBody.appendChild(row);
@@ -34,4 +34,6 @@ document.addEventListener('click', (event) => {
       .catch(error => console.error(error));
   }
 });
+
+
 

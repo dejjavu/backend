@@ -1,4 +1,4 @@
-package com.example.ProyectoIntegrador.persistance.controller;
+package com.example.ProyectoIntegrador.controller;
 
 import com.example.ProyectoIntegrador.entities.Domicilio;
 import com.example.ProyectoIntegrador.persistance.service.DomicilioService;

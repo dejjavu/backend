@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Odontologos</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Clinica Dental</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Odontologos </a>
+            <a class="nav-item nav-link active" href="#">Pacientes<span class="sr-only"><-</span></a>
+            <a class="nav-item nav-link" href="#">Turnos</a>
+        </div>
+    </div>
+</nav>
+<div class="container mt-5">
+    <h1 class="mb-4">Odontologos</h1>
+
+    <div class="container">
+        <h4 class="mb-4">Lista Pacientes</h4>
+        <table id="lista-pacientes" class="table">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>DNI</th>
+                <th>Calle</th>
+                <th>Numero</th>
+                <th>Localidad</th>
+                <th>Provincia</th>
+                <th>Eliminar</th>
+                <th>Modificar</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!-- Las filas de la tabla se generarán dinámicamente con JavaScript -->
+            </tbody>
+        </table>
+        <div class="container mt-5" id="div_paciente_updating" style="display: none;">
+            <h4 class="mb-4">Modificar datos</h4>
+            <form id="update_paciente_form">
+
+                <div class="mb-3">
+                    <label >Id:</label>
+                    <input type="text" class="form-control" id="paciente_id" readonly>
+                </div>
+                <div class="mb-3">
+                    <label >Nombre:</label>
+                    <input type="text" class="form-control" placeholder="nombre" id="nombre">
+                </div>
+                <div class="mb-3">
+                    <label >Apellido:</label>
+                    <input type="text" class="form-control" placeholder="apellido" id="apellido">
+                </div>
+                <div class="mb-3">
+                    <label >DNI:</label>
+                    <input type="text" class="form-control" placeholder="dni" id="dni">
+                </div>
+                <div class="mb-3">
+                    <label >Calle:</label>
+                    <input type="text" class="form-control" placeholder="dni" id="calle">
+                </div>
+                <div class="mb-3">
+                    <label >Numero:</label>
+                    <input type="text" class="form-control" placeholder="dni" id="numero">
+                </div>
+                <div class="mb-3">
+                    <label >Localidad:</label>
+                    <input type="text" class="form-control" placeholder="dni" id="localidad">
+                </div>
+                <div class="mb-3">
+                    <label >Provincia:</label>
+                    <input type="text" class="form-control" placeholder="dni" id="provincia">
+                </div>
+
+
+
+                <button type="submit" class="btn btn-primary">Modificar</button>
+                <button type="button" class="btn btn-secondary" id="cancelar_modificacion">Cancelar</button>
+            </form>
+            <div id="response" style="display:none; margin:10px">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js"></script>
+
+<script src="/sys/pacientes.js"></script>
+
+</body>
+</html>
+

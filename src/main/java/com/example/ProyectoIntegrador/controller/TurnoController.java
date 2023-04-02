@@ -1,4 +1,5 @@
-package com.example.ProyectoIntegrador.persistance.controller;
+package com.example.ProyectoIntegrador.controller;
+
 import com.example.ProyectoIntegrador.DTO.TurnoDTO;
 import com.example.ProyectoIntegrador.entities.Turno;
 import com.example.ProyectoIntegrador.persistance.repository.TurnoRepository;
@@ -16,7 +17,7 @@ import java.util.List;
 @RequestMapping("/turnos")
 @NoArgsConstructor
 public class TurnoController {
-@Autowired
+    @Autowired
     private  TurnoService turnoService;
     @Autowired
     private  OdontologoService odontologoService;
@@ -34,7 +35,7 @@ public class TurnoController {
 
     @GetMapping("/{id}")
     public ResponseEntity<?> buscarTurno(@PathVariable Long id) throws Exception {
-           if (turnoRepository.findById(id).isEmpty()){
+        if (turnoRepository.findById(id).isEmpty()){
             return ResponseEntity.badRequest().body("El Turno con el ID " + id +" no fue encontrado");
         }
         return ResponseEntity.ok((turnoService.buscarTurno(id)));
@@ -62,7 +63,7 @@ public class TurnoController {
         return ResponseEntity.ok(turnosDTO);
     }
 
-    @GetMapping("/pa/{id}/")
+    @GetMapping("/pa/{id}")
     public ResponseEntity<List<TurnoDTO>> obtenerTurnosPorPaciente(@PathVariable Long id) {
         List<TurnoDTO> turnosDTO = turnoService.turnosPorIDPaciente(id);
         return ResponseEntity.ok(turnosDTO);

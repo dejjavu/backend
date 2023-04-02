@@ -751,3 +751,1026 @@
 [2023-03-31 07:09:15] [ INFO ] [PacienteService:46] Paciente ID 4 actualizado con éxito.
 [2023-03-31 07:09:16] [ INFO ] [PacienteService:46] Paciente ID 4 actualizado con éxito.
 [2023-03-31 07:09:16] [ INFO ] [PacienteService:46] Paciente ID 4 actualizado con éxito.
+[2023-03-31 18:00:36] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:29:48] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:29:51] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:29:51] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:29:54] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:39:17] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:39:18] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:39:19] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:39:48] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:39:53] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:40:06] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:40:11] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:40:32] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:43:22] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:48:20] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:48:21] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:48:32] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:48:38] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:48:39] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:48:40] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 18:48:40] [ INFO ] [PacienteService:46] Paciente ID 3 actualizado con éxito.
+[2023-03-31 19:33:10] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 19:33:10] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=5, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=null, turnos=[])
+[2023-03-31 19:35:29] [ ERROR] [TurnoService:42] Se produjo un error
+[2023-03-31 19:35:44] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=2, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=3, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 19:37:52] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=3, fechaAltaTurno=2023-03-31, fechaDeTurno=2023-04-09, horaDeTurno=14:15, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=3, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-03-31 20:02:07] [ INFO ] [PacienteService:21] Guardando Paciente.
+[2023-03-31 20:02:07] [ INFO ] [PacienteService:23] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=null, turnos=[])
+[2023-03-31 22:20:43] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 22:20:43] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=1, nombre=2, apellido=2, matricula=2, turnos=[])
+[2023-03-31 22:21:07] [ INFO ] [OdontologoService:23] Guardando Odontologo.
+[2023-03-31 22:21:07] [ INFO ] [OdontologoService:25] Odontologo guardado con éxito Odontologo(id=2, nombre=2, apellido=2, matricula=, turnos=[])
+[2023-04-01 20:11:12] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-04-01 20:11:15] [ INFO ] [OdontologoService:48] Odontologo ID 1 actualizado con éxito.
+[2023-04-01 20:11:32] [ INFO ] [OdontologoService:48] Odontologo ID 2 actualizado con éxito.
+[2023-04-01 20:51:57] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-01 20:51:57] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=3, nombre=2, apellido=2, matricula=23, turnos=[])
+[2023-04-01 20:52:01] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-01 20:52:01] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=4, nombre=2, apellido=2, matricula=, turnos=[])
+[2023-04-01 20:52:28] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-01 20:52:28] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=5, nombre=2, apellido=22, matricula=233, turnos=[])
+[2023-04-01 20:52:33] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-01 20:52:33] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=6, nombre=22, apellido=22, matricula=2333, turnos=[])
+[2023-04-01 20:53:03] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-01 20:53:03] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=7, nombre=22, apellido=22, matricula=23233, turnos=[])
+[2023-04-01 20:53:07] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-01 20:53:07] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=8, nombre=, apellido=22, matricula=2323233, turnos=[])
+[2023-04-01 20:53:15] [ ERROR] [PacienteService:59] Se produjo un error
+[2023-04-01 20:54:33] [ INFO ] [PacienteService:57] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=Domicilio(id=1, calle=Los Mandarinos, numero=32, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 20:54:35] [ INFO ] [PacienteService:57] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=Domicilio(id=2, calle=Los Mandarinos, numero=32, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 20:54:36] [ INFO ] [PacienteService:57] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=Domicilio(id=3, calle=Los Mandarinos, numero=32, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 20:54:36] [ INFO ] [PacienteService:57] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=Domicilio(id=4, calle=Los Mandarinos, numero=32, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 20:55:14] [ INFO ] [PacienteService:57] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=Domicilio(id=5, calle=Los Mandarinos, numero=32, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 20:55:15] [ INFO ] [PacienteService:57] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=Domicilio(id=6, calle=Los Mandarinos, numero=32, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 20:55:15] [ INFO ] [PacienteService:57] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=Domicilio(id=7, calle=Los Mandarinos, numero=32, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 20:55:16] [ INFO ] [PacienteService:57] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=Domicilio(id=8, calle=Los Mandarinos, numero=32, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 20:55:18] [ INFO ] [PacienteService:57] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=Domicilio(id=9, calle=Los Mandarinos, numero=32, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 20:55:19] [ INFO ] [PacienteService:57] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=Domicilio(id=10, calle=Los Mandarinos, numero=32, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 20:55:19] [ INFO ] [PacienteService:57] Paciente guardado con éxito Paciente(id=1, nombre=MaDrcela, apellido=asf, dni=323, fechaIngreso=2023-03-31, domicilio=Domicilio(id=11, calle=Los Mandarinos, numero=32, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 20:55:22] [ ERROR] [PacienteService:59] Se produjo un error
+[2023-04-01 20:55:33] [ ERROR] [PacienteService:59] Se produjo un error
+[2023-04-01 21:13:28] [ INFO ] [PacienteService:60] Paciente guardado con éxito Paciente(id=2, nombre=asfasfasf, apellido=asf, dni=123123123, fechaIngreso=2023-04-01, domicilio=Domicilio(id=12, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:13:35] [ INFO ] [PacienteService:60] Paciente guardado con éxito Paciente(id=3, nombre=asfasfasf, apellido=asf, dni=123123123, fechaIngreso=2023-04-01, domicilio=Domicilio(id=13, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:13:37] [ INFO ] [PacienteService:60] Paciente guardado con éxito Paciente(id=4, nombre=asfasfasf, apellido=asf, dni=123123123, fechaIngreso=2023-04-01, domicilio=Domicilio(id=14, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:16:24] [ INFO ] [PacienteService:60] Paciente guardado con éxito Paciente(id=5, nombre=asf, apellido=ds, dni=123123123, fechaIngreso=2023-04-01, domicilio=Domicilio(id=15, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:16:48] [ INFO ] [PacienteService:60] Paciente guardado con éxito Paciente(id=6, nombre=asf, apellido=ds, dni=123123123, fechaIngreso=2023-04-01, domicilio=Domicilio(id=16, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:19:18] [ ERROR] [PacienteService:71] Error al guardar Paciente.
+org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 5
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:382)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:235)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy123.findByDNI(Unknown Source)
+	at com.example.ProyectoIntegrador.persistance.service.PacienteService.guardarPaciente(PacienteService.java:45)
+	at com.example.ProyectoIntegrador.persistance.controller.PacienteController.guardarPaciente(PacienteController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: jakarta.persistence.NonUniqueResultException: query did not return a unique result: 5
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:128)
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:466)
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.getSingleResult(QuerySqmImpl.java:1103)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:193)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:148)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:77)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:390)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 57 more
+[2023-04-01 21:19:19] [ ERROR] [PacienteService:71] Error al guardar Paciente.
+org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 5
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:382)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:235)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy123.findByDNI(Unknown Source)
+	at com.example.ProyectoIntegrador.persistance.service.PacienteService.guardarPaciente(PacienteService.java:45)
+	at com.example.ProyectoIntegrador.persistance.controller.PacienteController.guardarPaciente(PacienteController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: jakarta.persistence.NonUniqueResultException: query did not return a unique result: 5
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:128)
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:466)
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.getSingleResult(QuerySqmImpl.java:1103)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:193)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:148)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:77)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:390)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 57 more
+[2023-04-01 21:19:33] [ ERROR] [PacienteService:71] Error al guardar Paciente.
+org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 5
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:382)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:235)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy123.findByDNI(Unknown Source)
+	at com.example.ProyectoIntegrador.persistance.service.PacienteService.guardarPaciente(PacienteService.java:45)
+	at com.example.ProyectoIntegrador.persistance.controller.PacienteController.guardarPaciente(PacienteController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: jakarta.persistence.NonUniqueResultException: query did not return a unique result: 5
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:128)
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:466)
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.getSingleResult(QuerySqmImpl.java:1103)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:193)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:148)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:77)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:390)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 57 more
+[2023-04-01 21:19:34] [ ERROR] [PacienteService:71] Error al guardar Paciente.
+org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 5
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:382)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:235)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy123.findByDNI(Unknown Source)
+	at com.example.ProyectoIntegrador.persistance.service.PacienteService.guardarPaciente(PacienteService.java:45)
+	at com.example.ProyectoIntegrador.persistance.controller.PacienteController.guardarPaciente(PacienteController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: jakarta.persistence.NonUniqueResultException: query did not return a unique result: 5
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:128)
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:466)
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.getSingleResult(QuerySqmImpl.java:1103)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:193)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:148)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:77)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:390)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 57 more
+[2023-04-01 21:19:36] [ INFO ] [PacienteService:64] Paciente guardado con éxito: Paciente(id=7, nombre=asf, apellido=ds, dni=f, fechaIngreso=2023-04-01, domicilio=Domicilio(id=17, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:19:39] [ INFO ] [PacienteService:64] Paciente guardado con éxito: Paciente(id=8, nombre=asf, apellido=ds, dni=123123, fechaIngreso=2023-04-01, domicilio=Domicilio(id=18, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:19:39] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya existe en otro paciente.
+[2023-04-01 21:19:42] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya existe en otro paciente.
+[2023-04-01 21:19:46] [ INFO ] [PacienteService:64] Paciente guardado con éxito: Paciente(id=9, nombre=asf, apellido=ds, dni=234123123, fechaIngreso=2023-04-01, domicilio=Domicilio(id=19, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:19:48] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya existe en otro paciente.
+[2023-04-01 21:19:51] [ INFO ] [PacienteService:64] Paciente guardado con éxito: Paciente(id=10, nombre=asf, apellido=ds, dni=123123123123123123, fechaIngreso=2023-04-01, domicilio=Domicilio(id=20, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:20:23] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya existe en otro paciente.
+[2023-04-01 21:20:24] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya existe en otro paciente.
+[2023-04-01 21:20:26] [ INFO ] [PacienteService:64] Paciente guardado con éxito: Paciente(id=11, nombre=asf, apellido=ds, dni=1231231231231231123412312323, fechaIngreso=2023-04-01, domicilio=Domicilio(id=21, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:20:49] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya existe en otro paciente.
+[2023-04-01 21:20:54] [ INFO ] [PacienteService:64] Paciente guardado con éxito: Paciente(id=12, nombre=asf, apellido=dsasfasf, dni=1231231231231231231231123412312323, fechaIngreso=2023-04-01, domicilio=Domicilio(id=22, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:20:56] [ WARN ] [PacienteService:68] Error al guardar Paciente: El campo 'Apellido' no puede estar vacío.
+[2023-04-01 21:20:58] [ WARN ] [PacienteService:68] Error al guardar Paciente: El campo 'Nombre' no puede estar vacío.
+[2023-04-01 21:22:11] [ WARN ] [PacienteService:68] Error al guardar Paciente: El campo 'Nombre' no puede estar vacío.
+[2023-04-01 21:22:12] [ WARN ] [PacienteService:68] Error al guardar Paciente: El campo 'Nombre' no puede estar vacío.
+[2023-04-01 21:22:15] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asf dsasfasf.
+[2023-04-01 21:23:07] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asf dsasfasf.
+[2023-04-01 21:23:08] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asf dsasfasf.
+[2023-04-01 21:23:09] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asf dsasfasf.
+[2023-04-01 21:23:11] [ INFO ] [PacienteService:64] Paciente guardado con éxito: Paciente(id=13, nombre=asfasf, apellido=asfasf, dni=1231231231231231f231231123412312323, fechaIngreso=2023-04-01, domicilio=Domicilio(id=23, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:26:38] [ WARN ] [PacienteService:67] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asfasf asfasf.
+[2023-04-01 21:26:42] [ INFO ] [PacienteService:63] Paciente guardado con éxito: Paciente(id=14, nombre=asfasf, apellido=asfasf, dni=safasf, fechaIngreso=2023-04-01, domicilio=Domicilio(id=24, calle=Los Mandarinos, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:26:53] [ WARN ] [PacienteService:67] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asfasf asfasf.
+[2023-04-01 21:26:54] [ WARN ] [PacienteService:67] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asfasf asfasf.
+[2023-04-01 21:26:55] [ WARN ] [PacienteService:67] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asfasf asfasf.
+[2023-04-01 21:26:55] [ WARN ] [PacienteService:67] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asfasf asfasf.
+[2023-04-01 21:26:56] [ WARN ] [PacienteService:67] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asfasf asfasf.
+[2023-04-01 21:36:20] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:36:22] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:36:23] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:36:45] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:36:49] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:36:50] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:36:54] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:42:37] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:42:38] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:42:39] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:42:40] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:42:41] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:42:46] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:42:52] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:42:53] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:43:05] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:43:07] [ INFO ] [PacienteService:88] Paciente ID 3 actualizado con éxito.
+[2023-04-01 21:43:09] [ WARN ] [PacienteService:67] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asfasf asfasf.
+[2023-04-01 21:43:18] [ WARN ] [PacienteService:67] Error al guardar Paciente: El campo 'Calle' no puede estar vacío.
+[2023-04-01 21:46:18] [ WARN ] [PacienteService:67] Error al guardar Paciente: El campo 'Calle' no puede estar vacío.
+[2023-04-01 21:46:18] [ WARN ] [PacienteService:67] Error al guardar Paciente: El campo 'Calle' no puede estar vacío.
+[2023-04-01 21:46:22] [ INFO ] [PacienteService:63] Paciente guardado con éxito: Paciente(id=15, nombre=asfasf, apellido=asfasf, dni=a, fechaIngreso=2023-04-01, domicilio=Domicilio(id=25, calle=asfasfasf, numero=33212, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-01 21:46:32] [ WARN ] [PacienteService:67] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asfasf asfasf.
+[2023-04-01 21:46:33] [ WARN ] [PacienteService:67] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asfasf asfasf.
+[2023-04-01 21:48:33] [ WARN ] [PacienteService:67] Error al guardar Paciente: El DNI ya existe en otro paciente. El paciente existente es asfasf asfasf.
+[2023-04-01 21:50:32] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente asfasf asfasf.
+[2023-04-01 21:50:34] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente asfasf asfasf.
+[2023-04-01 21:50:35] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente asfasf asfasf.
+[2023-04-01 21:50:35] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente asfasf asfasf.
+[2023-04-01 21:50:36] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente asfasf asfasf.
+[2023-04-01 21:50:49] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:11] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:11] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:16] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:16] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:19] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:19] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:21] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:21] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:23] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:23] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:23] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:25] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:25] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:25] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:26] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:27] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:28] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:28] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:29] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:30] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:30] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:31] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:31] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 21:51:32] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 22:03:35] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-01 23:47:13] [ INFO ] [OdontologoService:38] Odontologo ID 8 eliminado con éxito.
+[2023-04-01 23:47:15] [ INFO ] [OdontologoService:38] Odontologo ID 7 eliminado con éxito.
+[2023-04-01 23:47:17] [ INFO ] [OdontologoService:38] Odontologo ID 6 eliminado con éxito.
+[2023-04-01 23:47:38] [ INFO ] [OdontologoService:38] Odontologo ID 5 eliminado con éxito.
+[2023-04-01 23:48:31] [ INFO ] [OdontologoService:38] Odontologo ID 4 eliminado con éxito.
+[2023-04-01 23:59:38] [ INFO ] [OdontologoService:38] Odontologo ID 3 eliminado con éxito.
+[2023-04-02 00:00:27] [ INFO ] [OdontologoService:38] Odontologo ID 1 eliminado con éxito.
+[2023-04-02 00:00:33] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:00:33] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=9, nombre=, apellido=22, matricula=2323233, turnos=[])
+[2023-04-02 00:00:36] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:00:36] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=10, nombre=, apellido=22, matricula=2213323233, turnos=[])
+[2023-04-02 00:00:37] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:00:37] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=11, nombre=, apellido=22, matricula=2211233323233, turnos=[])
+[2023-04-02 00:00:39] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:00:39] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=12, nombre=, apellido=22, matricula=2211231233323233, turnos=[])
+[2023-04-02 00:00:41] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:00:41] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=13, nombre=, apellido=22, matricula=2123211231233323233, turnos=[])
+[2023-04-02 00:00:42] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:00:42] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=14, nombre=, apellido=22, matricula=2123211231212333323233, turnos=[])
+[2023-04-02 00:00:45] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:00:45] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=15, nombre=, apellido=22, matricula=2123211231211232333323233, turnos=[])
+[2023-04-02 00:02:02] [ INFO ] [OdontologoService:38] Odontologo ID 2 eliminado con éxito.
+[2023-04-02 00:12:04] [ INFO ] [OdontologoService:38] Odontologo ID 9 eliminado con éxito.
+[2023-04-02 00:14:23] [ INFO ] [OdontologoService:38] Odontologo ID 15 eliminado con éxito.
+[2023-04-02 00:15:30] [ INFO ] [OdontologoService:38] Odontologo ID 10 eliminado con éxito.
+[2023-04-02 00:23:19] [ INFO ] [OdontologoService:38] Odontologo ID 12 eliminado con éxito.
+[2023-04-02 00:30:48] [ INFO ] [OdontologoService:38] Odontologo ID 11 eliminado con éxito.
+[2023-04-02 00:32:18] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:32:18] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=16, nombre=, apellido=22, matricula=2123211231211232333323233, turnos=[])
+[2023-04-02 00:32:41] [ INFO ] [OdontologoService:38] Odontologo ID 16 eliminado con éxito.
+[2023-04-02 00:33:20] [ INFO ] [OdontologoService:38] Odontologo ID 13 eliminado con éxito.
+[2023-04-02 00:36:36] [ INFO ] [OdontologoService:38] Odontologo ID 14 eliminado con éxito.
+[2023-04-02 00:36:41] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:36:41] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=17, nombre=, apellido=22, matricula=2123211231211232333323233, turnos=[])
+[2023-04-02 00:36:43] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:36:43] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=18, nombre=, apellido=22, matricula=212321123121123233asf3323233, turnos=[])
+[2023-04-02 00:36:45] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:36:45] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=19, nombre=, apellido=22, matricula=212321123121123233asf33asf23233, turnos=[])
+[2023-04-02 00:36:46] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:36:46] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=20, nombre=, apellido=22, matricula=212321123121123233asf33aasfsf23233, turnos=[])
+[2023-04-02 00:37:09] [ INFO ] [OdontologoService:38] Odontologo ID 17 eliminado con éxito.
+[2023-04-02 00:38:20] [ INFO ] [OdontologoService:38] Odontologo ID 20 eliminado con éxito.
+[2023-04-02 00:38:47] [ INFO ] [OdontologoService:38] Odontologo ID 19 eliminado con éxito.
+[2023-04-02 00:40:16] [ INFO ] [OdontologoService:38] Odontologo ID 18 eliminado con éxito.
+[2023-04-02 00:40:21] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:40:21] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=21, nombre=, apellido=22, matricula=212321123121123233asf33aasfsf23233, turnos=[])
+[2023-04-02 00:41:50] [ INFO ] [OdontologoService:38] Odontologo ID 21 eliminado con éxito.
+[2023-04-02 00:41:56] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:41:56] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=22, nombre=, apellido=22, matricula=212321123121123233asf33aasfsf23233, turnos=[])
+[2023-04-02 00:42:00] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:42:00] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=23, nombre=, apellido=22, matricula=123123, turnos=[])
+[2023-04-02 00:42:02] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:42:02] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=24, nombre=, apellido=22, matricula=123123123123, turnos=[])
+[2023-04-02 00:42:06] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:42:06] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=25, nombre=, apellido=22, matricula=12321231213123123, turnos=[])
+[2023-04-02 00:42:08] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:42:08] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=26, nombre=, apellido=22, matricula=123132312312132132, turnos=[])
+[2023-04-02 00:42:11] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 00:42:11] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=27, nombre=, apellido=22, matricula=123213321132312132123, turnos=[])
+[2023-04-02 00:42:58] [ INFO ] [OdontologoService:47] Odontologo ID 23 actualizado con éxito.
+[2023-04-02 00:44:18] [ INFO ] [OdontologoService:47] Odontologo ID 22 actualizado con éxito.
+[2023-04-02 00:55:14] [ INFO ] [OdontologoService:47] Odontologo ID 22 actualizado con éxito.
+[2023-04-02 00:55:28] [ INFO ] [OdontologoService:47] Odontologo ID 22 actualizado con éxito.
+[2023-04-02 00:57:00] [ INFO ] [OdontologoService:47] Odontologo ID 22 actualizado con éxito.
+[2023-04-02 01:06:35] [ INFO ] [OdontologoService:47] Odontologo ID 22 actualizado con éxito.
+[2023-04-02 01:07:41] [ INFO ] [OdontologoService:47] Odontologo ID 22 actualizado con éxito.
+[2023-04-02 01:14:34] [ INFO ] [OdontologoService:47] Odontologo ID 22 actualizado con éxito.
+[2023-04-02 01:15:37] [ INFO ] [OdontologoService:47] Odontologo ID 22 actualizado con éxito.
+[2023-04-02 01:20:11] [ INFO ] [OdontologoService:47] Odontologo ID 22 actualizado con éxito.
+[2023-04-02 01:21:28] [ INFO ] [OdontologoService:47] Odontologo ID 22 actualizado con éxito.
+[2023-04-02 01:24:30] [ INFO ] [OdontologoService:38] Odontologo ID 27 eliminado con éxito.
+[2023-04-02 01:28:51] [ INFO ] [OdontologoService:38] Odontologo ID 22 eliminado con éxito.
+[2023-04-02 01:31:35] [ INFO ] [OdontologoService:38] Odontologo ID 23 eliminado con éxito.
+[2023-04-02 01:35:23] [ INFO ] [OdontologoService:38] Odontologo ID 24 eliminado con éxito.
+[2023-04-02 01:36:10] [ INFO ] [OdontologoService:38] Odontologo ID 25 eliminado con éxito.
+[2023-04-02 01:37:14] [ INFO ] [OdontologoService:38] Odontologo ID 26 eliminado con éxito.
+[2023-04-02 01:37:19] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 01:37:19] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=28, nombre=, apellido=22, matricula=123213321132312132123, turnos=[])
+[2023-04-02 01:37:23] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 01:37:23] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=29, nombre=, apellido=22, matricula=12321332113231ASD2132123, turnos=[])
+[2023-04-02 01:37:24] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 01:37:24] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=30, nombre=, apellido=22, matricula=123213321DSADASD13231ASD2132123, turnos=[])
+[2023-04-02 01:37:30] [ INFO ] [OdontologoService:47] Odontologo ID 28 actualizado con éxito.
+[2023-04-02 01:38:48] [ INFO ] [OdontologoService:47] Odontologo ID 29 actualizado con éxito.
+[2023-04-02 01:38:56] [ INFO ] [OdontologoService:47] Odontologo ID 28 actualizado con éxito.
+[2023-04-02 01:39:33] [ INFO ] [OdontologoService:47] Odontologo ID 28 actualizado con éxito.
+[2023-04-02 01:41:01] [ INFO ] [OdontologoService:47] Odontologo ID 30 actualizado con éxito.
+[2023-04-02 01:42:38] [ INFO ] [OdontologoService:38] Odontologo ID 28 eliminado con éxito.
+[2023-04-02 01:42:47] [ INFO ] [OdontologoService:47] Odontologo ID 29 actualizado con éxito.
+[2023-04-02 01:44:06] [ INFO ] [OdontologoService:38] Odontologo ID 29 eliminado con éxito.
+[2023-04-02 01:45:13] [ INFO ] [OdontologoService:38] Odontologo ID 30 eliminado con éxito.
+[2023-04-02 01:45:24] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 01:45:24] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=31, nombre=1, apellido=1, matricula=1, turnos=[])
+[2023-04-02 01:45:59] [ INFO ] [OdontologoService:38] Odontologo ID 31 eliminado con éxito.
+[2023-04-02 01:46:02] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 01:46:02] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=32, nombre=1, apellido=1, matricula=1, turnos=[])
+[2023-04-02 01:46:06] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 01:47:04] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 01:47:04] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=33, nombre=1, apellido=1, matricula=1, turnos=[])
+[2023-04-02 01:47:35] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 01:47:41] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 01:49:19] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:04:28] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:04:39] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:12:43] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:20:28] [ INFO ] [PacienteService:64] Paciente guardado con éxito: Paciente(id=16, nombre=Ignacio, apellido=Poma, dni=37004518, fechaIngreso=2023-04-02, domicilio=Domicilio(id=26, calle=Los Mandarinos, numero=397, localidad=Salta, provincia=Salta), turnos=[])
+[2023-04-02 02:20:36] [ INFO ] [PacienteService:64] Paciente guardado con éxito: Paciente(id=17, nombre=Ignacio, apellido=Poma, dni=1, fechaIngreso=2023-04-02, domicilio=Domicilio(id=27, calle=Los Mandarinos, numero=397, localidad=Salta, provincia=Salta), turnos=[])
+[2023-04-02 02:20:43] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: Ignacio Poma.
+[2023-04-02 02:22:19] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: Ignacio Poma.
+[2023-04-02 02:27:57] [ INFO ] [OdontologoService:47] Odontologo ID 33 actualizado con éxito.
+[2023-04-02 02:28:08] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:28:32] [ INFO ] [OdontologoService:38] Odontologo ID 33 eliminado con éxito.
+[2023-04-02 02:28:45] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:29:18] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:29:26] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:31:04] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:33:52] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:34:35] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:34:40] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:35:27] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:35:31] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:36:24] [ INFO ] [OdontologoService:47] Odontologo ID 32 actualizado con éxito.
+[2023-04-02 02:49:52] [ INFO ] [PacienteService:129] Paciente ID 1 actualizado con éxito.
+[2023-04-02 02:50:03] [ INFO ] [PacienteService:129] Paciente ID 1 actualizado con éxito.
+[2023-04-02 02:52:11] [ INFO ] [PacienteService:129] Paciente ID 1 actualizado con éxito.
+[2023-04-02 02:53:03] [ INFO ] [PacienteService:129] Paciente ID 1 actualizado con éxito.
+[2023-04-02 02:54:55] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:57:29] [ INFO ] [PacienteService:80] Paciente ID 1 eliminado con éxito.
+[2023-04-02 02:57:31] [ INFO ] [PacienteService:80] Paciente ID 2 eliminado con éxito.
+[2023-04-02 02:57:32] [ INFO ] [PacienteService:80] Paciente ID 3 eliminado con éxito.
+[2023-04-02 02:57:33] [ INFO ] [PacienteService:80] Paciente ID 4 eliminado con éxito.
+[2023-04-02 02:57:34] [ INFO ] [PacienteService:80] Paciente ID 5 eliminado con éxito.
+[2023-04-02 02:57:36] [ INFO ] [PacienteService:80] Paciente ID 6 eliminado con éxito.
+[2023-04-02 02:57:37] [ INFO ] [PacienteService:80] Paciente ID 7 eliminado con éxito.
+[2023-04-02 02:57:39] [ INFO ] [PacienteService:80] Paciente ID 8 eliminado con éxito.
+[2023-04-02 02:57:41] [ INFO ] [PacienteService:80] Paciente ID 9 eliminado con éxito.
+[2023-04-02 02:57:42] [ INFO ] [PacienteService:80] Paciente ID 10 eliminado con éxito.
+[2023-04-02 02:58:44] [ INFO ] [PacienteService:64] Paciente guardado con éxito: Paciente(id=18, nombre=123231321, apellido=asf, dni=323, fechaIngreso=2023-04-02, domicilio=Domicilio(id=32, calle=Los Mandarinos, numero=37004518, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-02 02:58:44] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:46] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:46] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:47] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:47] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:48] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:48] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:49] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:49] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:50] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:50] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:51] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:51] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:52] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:52] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:52] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:53] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:53] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:54] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:54] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:55] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:55] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:56] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 02:58:57] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 03:01:51] [ INFO ] [PacienteService:122] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:01:52] [ INFO ] [PacienteService:122] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:01:53] [ INFO ] [PacienteService:122] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:05:26] [ INFO ] [PacienteService:122] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:05:28] [ INFO ] [PacienteService:122] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:05:29] [ INFO ] [PacienteService:122] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:05:30] [ INFO ] [PacienteService:122] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:05:33] [ INFO ] [PacienteService:122] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:07:12] [ INFO ] [PacienteService:122] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:07:13] [ INFO ] [PacienteService:122] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:09:09] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 03:09:10] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 03:09:11] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 03:09:12] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 03:09:16] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 03:09:17] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 03:09:18] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 03:09:24] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: Ignacio Poma.
+[2023-04-02 03:09:28] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: Ignacio Poma.
+[2023-04-02 03:09:33] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 03:09:41] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: 123231321 asf.
+[2023-04-02 03:09:43] [ INFO ] [PacienteService:64] Paciente guardado con éxito: Paciente(id=19, nombre=a, apellido=asf, dni=123123123, fechaIngreso=2023-04-02, domicilio=Domicilio(id=38, calle=Los Mandarinos, numero=37004518, localidad=Salta, provincia=Capital), turnos=[])
+[2023-04-02 03:10:38] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:40] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:40] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:45] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:46] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:46] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:47] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:48] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:48] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:49] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:49] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:50] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:50] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:51] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:52] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:52] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:53] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:10:57] [ WARN ] [PacienteService:68] Error al guardar Paciente: El DNI ya se registró para el paciente: a asf.
+[2023-04-02 03:11:23] [ WARN ] [PacienteService:68] Error al guardar Paciente: El campo 'Nombre' no puede estar vacío.
+[2023-04-02 03:11:35] [ INFO ] [PacienteService:118] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:11:44] [ INFO ] [PacienteService:118] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:12:11] [ INFO ] [PacienteService:119] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:12:12] [ INFO ] [PacienteService:119] Paciente ID 11 actualizado con éxito.
+[2023-04-02 03:21:14] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El campo 'Nombre' no puede estar vacío.
+[2023-04-02 03:21:15] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El campo 'Nombre' no puede estar vacío.
+[2023-04-02 03:21:17] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:19] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:20] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:22] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:24] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:25] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:36] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:37] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:38] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:40] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:41] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:42] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:42] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:43] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:43] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:44] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:45] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:45] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:46] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:46] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:21:58] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asdasd ds.
+[2023-04-02 03:22:01] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El campo 'DNI' no puede estar vacío.
+[2023-04-02 03:24:55] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El campo 'DNI' no puede estar vacío.
+[2023-04-02 03:24:56] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El campo 'DNI' no puede estar vacío.
+[2023-04-02 03:24:58] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-02 03:25:00] [ WARN ] [PacienteService:109] Error al actualizar Paciente: El DNI ya se registró para el paciente: asfasf asfasf.
+[2023-04-02 03:27:46] [ WARN ] [PacienteService:106] Paciente actualizado con éxito
+[2023-04-02 03:28:38] [ WARN ] [PacienteService:106] Paciente ID 11 actualizado con éxito
+[2023-04-02 03:28:48] [ WARN ] [PacienteService:106] Paciente ID 11 actualizado con éxito
+[2023-04-02 03:29:02] [ WARN ] [PacienteService:106] Paciente ID 11 actualizado con éxito
+[2023-04-02 03:29:05] [ WARN ] [PacienteService:110] Error al actualizar Paciente: El campo 'Nombre' no puede estar vacío.
+[2023-04-02 04:04:52] [ INFO ] [PacienteService:106] Paciente ID 11 actualizado con éxito
+[2023-04-02 04:06:39] [ INFO ] [PacienteService:70] Paciente ID 11 eliminado con éxito.
+[2023-04-02 04:06:41] [ INFO ] [PacienteService:70] Paciente ID 12 eliminado con éxito.
+[2023-04-02 04:06:42] [ INFO ] [PacienteService:70] Paciente ID 13 eliminado con éxito.
+[2023-04-02 04:06:44] [ INFO ] [PacienteService:70] Paciente ID 14 eliminado con éxito.
+[2023-04-02 04:06:45] [ INFO ] [PacienteService:70] Paciente ID 15 eliminado con éxito.
+[2023-04-02 04:06:47] [ INFO ] [PacienteService:70] Paciente ID 16 eliminado con éxito.
+[2023-04-02 04:06:49] [ INFO ] [PacienteService:70] Paciente ID 17 eliminado con éxito.
+[2023-04-02 04:06:50] [ INFO ] [PacienteService:70] Paciente ID 18 eliminado con éxito.
+[2023-04-02 04:06:51] [ INFO ] [PacienteService:70] Paciente ID 19 eliminado con éxito.
+[2023-04-02 04:06:56] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=20, nombre=Marcela, apellido=Saravia, dni=124124123, fechaIngreso=2023-04-02, domicilio=Domicilio(id=40, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 04:06:59] [ WARN ] [PacienteService:58] Error al guardar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:07:02] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=21, nombre=Marcela, apellido=Saravia, dni=2, fechaIngreso=2023-04-02, domicilio=Domicilio(id=41, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 04:07:04] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=22, nombre=Marcela, apellido=Saravia, dni=3, fechaIngreso=2023-04-02, domicilio=Domicilio(id=42, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 04:07:06] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=23, nombre=Marcela, apellido=Saravia, dni=4, fechaIngreso=2023-04-02, domicilio=Domicilio(id=43, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 04:07:08] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=24, nombre=Marcela, apellido=Saravia, dni=5, fechaIngreso=2023-04-02, domicilio=Domicilio(id=44, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 04:07:22] [ INFO ] [PacienteService:106] Paciente ID 20 actualizado con éxito
+[2023-04-02 04:07:25] [ WARN ] [PacienteService:110] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:07:29] [ INFO ] [PacienteService:106] Paciente ID 20 actualizado con éxito
+[2023-04-02 04:07:31] [ INFO ] [PacienteService:106] Paciente ID 20 actualizado con éxito
+[2023-04-02 04:07:35] [ WARN ] [PacienteService:58] Error al guardar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:07:36] [ WARN ] [PacienteService:58] Error al guardar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:07:37] [ WARN ] [PacienteService:58] Error al guardar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:07:41] [ WARN ] [PacienteService:110] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:07:45] [ WARN ] [PacienteService:110] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:07:48] [ WARN ] [PacienteService:110] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:07:50] [ WARN ] [PacienteService:110] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:07:53] [ INFO ] [PacienteService:106] Paciente ID 20 actualizado con éxito
+[2023-04-02 04:08:07] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=25, nombre=Marcela, apellido=Saravia, dni=1, fechaIngreso=2023-04-02, domicilio=Domicilio(id=45, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 04:08:09] [ WARN ] [PacienteService:58] Error al guardar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:08:11] [ WARN ] [PacienteService:58] Error al guardar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:08:14] [ WARN ] [PacienteService:58] Error al guardar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:08:16] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=26, nombre=Marcela, apellido=Saravia, dni=7, fechaIngreso=2023-04-02, domicilio=Domicilio(id=46, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 04:08:22] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 04:08:22] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=34, nombre=Oscar, apellido=Gomez, matricula=452145, turnos=[])
+[2023-04-02 04:08:28] [ INFO ] [OdontologoService:22] Guardando Odontologo.
+[2023-04-02 04:08:28] [ INFO ] [OdontologoService:24] Odontologo guardado con éxito Odontologo(id=35, nombre=Oscar, apellido=Gomez, matricula=asfasfasf, turnos=[])
+[2023-04-02 04:12:16] [ INFO ] [PacienteService:106] Paciente ID 20 actualizado con éxito
+[2023-04-02 04:12:30] [ INFO ] [PacienteService:106] Paciente ID 20 actualizado con éxito
+[2023-04-02 04:15:47] [ WARN ] [PacienteService:56] Error al guardar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:15:48] [ WARN ] [PacienteService:56] Error al guardar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:15:55] [ INFO ] [PacienteService:104] Paciente ID 20 actualizado con éxito
+[2023-04-02 04:15:56] [ INFO ] [PacienteService:104] Paciente ID 20 actualizado con éxito
+[2023-04-02 04:15:59] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:16:17] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:16:33] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:16:51] [ INFO ] [PacienteService:104] Paciente ID 26 actualizado con éxito
+[2023-04-02 04:17:04] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Lisandro Martinez.
+[2023-04-02 04:17:29] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Lisandro Martinez.
+[2023-04-02 04:20:05] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Lisandro Martinez.
+[2023-04-02 04:20:29] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Lisandro Martinez.
+[2023-04-02 04:22:06] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Lisandro Martinez.
+[2023-04-02 04:24:25] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Lisandro Martinez.
+[2023-04-02 04:24:38] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:24:40] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:24:41] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:24:42] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:24:43] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:24:43] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:24:44] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:26:17] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:30:44] [ INFO ] [PacienteService:112] Paciente ID 1111 no existe
+[2023-04-02 04:37:00] [ INFO ] [PacienteService:113] Paciente ID 1111 no existe
+[2023-04-02 04:37:01] [ INFO ] [PacienteService:113] Paciente ID 1111 no existe
+[2023-04-02 04:37:02] [ INFO ] [PacienteService:113] Paciente ID 1111 no existe
+[2023-04-02 04:38:21] [ INFO ] [PacienteService:113] Paciente ID 1111 no existe
+[2023-04-02 04:38:22] [ INFO ] [PacienteService:113] Paciente ID 1111 no existe
+[2023-04-02 04:38:24] [ INFO ] [PacienteService:113] Paciente ID 1 no existe
+[2023-04-02 04:38:25] [ INFO ] [PacienteService:113] Paciente ID 1 no existe
+[2023-04-02 04:38:28] [ INFO ] [PacienteService:113] Paciente ID 1 no existe
+[2023-04-02 04:38:33] [ WARN ] [PacienteService:57] Error al guardar Paciente: El DNI ya se registró para el paciente: Lisandro Martinez.
+[2023-04-02 04:38:36] [ INFO ] [PacienteService:53] Paciente guardado con éxito: Paciente(id=27, nombre=Marcela, apellido=Saravia, dni=3213123, fechaIngreso=2023-04-02, domicilio=Domicilio(id=50, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 04:38:52] [ INFO ] [PacienteService:105] Paciente ID 27 actualizado con éxito
+[2023-04-02 04:38:57] [ INFO ] [PacienteService:113] Paciente ID 123123123123132132 no existe
+[2023-04-02 04:40:49] [ INFO ] [PacienteService:112] Paciente ID 12312231321123 no existe
+[2023-04-02 04:41:51] [ INFO ] [PacienteService:112] Paciente ID 12312231321123 no existe
+[2023-04-02 04:41:51] [ INFO ] [PacienteService:112] Paciente ID 12312231321123 no existe
+[2023-04-02 04:41:52] [ INFO ] [PacienteService:112] Paciente ID 12312231321123 no existe
+[2023-04-02 04:41:53] [ INFO ] [PacienteService:112] Paciente ID 12312231321123 no existe
+[2023-04-02 04:41:53] [ INFO ] [PacienteService:112] Paciente ID 12312231321123 no existe
+[2023-04-02 04:41:54] [ INFO ] [PacienteService:112] Paciente ID 12312231321123 no existe
+[2023-04-02 04:41:55] [ INFO ] [PacienteService:112] Paciente ID 12312231321123 no existe
+[2023-04-02 04:41:57] [ INFO ] [PacienteService:112] Paciente ID 1 no existe
+[2023-04-02 04:42:00] [ INFO ] [PacienteService:112] Paciente ID 2 no existe
+[2023-04-02 04:42:03] [ INFO ] [PacienteService:112] Paciente ID 3 no existe
+[2023-04-02 04:42:12] [ WARN ] [PacienteService:108] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 04:44:00] [ INFO ] [PacienteService:118] Paciente ID 222 no existe
+[2023-04-02 04:44:02] [ INFO ] [PacienteService:118] Paciente ID 12312312322 no existe
+[2023-04-02 04:44:07] [ INFO ] [PacienteService:118] Paciente ID 12312312322 no existe
+[2023-04-02 04:44:37] [ INFO ] [PacienteService:118] Paciente ID 12312312322 no existe
+[2023-04-02 04:44:38] [ INFO ] [PacienteService:118] Paciente ID 12312312322 no existe
+[2023-04-02 04:46:56] [ INFO ] [PacienteService:118] Paciente ID 12312312322 no existe
+[2023-04-02 04:46:57] [ INFO ] [PacienteService:118] Paciente ID 12312312322 no existe
+[2023-04-02 04:46:58] [ INFO ] [PacienteService:118] Paciente ID 12312312322 no existe
+[2023-04-02 04:55:56] [ WARN ] [PacienteService:76] Error al eliminar Paciente: El paciente con ID 10 no existe.
+[2023-04-02 04:55:57] [ WARN ] [PacienteService:76] Error al eliminar Paciente: El paciente con ID 10 no existe.
+[2023-04-02 04:56:05] [ INFO ] [PacienteService:71] Paciente ID 20 eliminado con éxito.
+[2023-04-02 04:56:06] [ WARN ] [PacienteService:76] Error al eliminar Paciente: El paciente con ID 20 no existe.
+[2023-04-02 04:56:07] [ WARN ] [PacienteService:76] Error al eliminar Paciente: El paciente con ID 20 no existe.
+[2023-04-02 05:02:33] [ WARN ] [PacienteService:139] Paciente ID 4554 no existe.
+[2023-04-02 05:08:58] [ WARN ] [PacienteService:139] Paciente ID 3 no existe.
+[2023-04-02 05:08:59] [ WARN ] [PacienteService:139] Paciente ID 3 no existe.
+[2023-04-02 05:10:34] [ WARN ] [PacienteService:139] Paciente ID 3 no existe.
+[2023-04-02 05:10:35] [ WARN ] [PacienteService:139] Paciente ID 3 no existe.
+[2023-04-02 05:10:38] [ WARN ] [PacienteService:139] Paciente ID 3 no existe.
+[2023-04-02 05:10:57] [ WARN ] [PacienteService:139] Paciente ID 3 no existe.
+[2023-04-02 05:10:58] [ WARN ] [PacienteService:139] Paciente ID 3 no existe.
+[2023-04-02 05:15:27] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:15:29] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:15:29] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:18:10] [ INFO ] [PacienteService:116] Paciente ID 21 actualizado con éxito
+[2023-04-02 05:18:14] [ INFO ] [PacienteService:116] Paciente ID 21 actualizado con éxito
+[2023-04-02 05:18:20] [ WARN ] [PacienteService:120] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 05:18:24] [ WARN ] [PacienteService:120] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 05:18:26] [ WARN ] [PacienteService:120] Error al actualizar Paciente: El campo 'Apellido' no puede estar vacío.
+[2023-04-02 05:18:29] [ WARN ] [PacienteService:120] Error al actualizar Paciente: El campo 'Nombre' no puede estar vacío.
+[2023-04-02 05:19:33] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:19:35] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:19:36] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:19:36] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:19:37] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:19:57] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:20:42] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:20:44] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:20:44] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:21:20] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:21:32] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:21:34] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:24:10] [ WARN ] [PacienteService:76] Error al eliminar Paciente: El paciente con ID 20 no existe.
+[2023-04-02 05:24:12] [ WARN ] [PacienteService:76] Error al eliminar Paciente: El paciente con ID 1 no existe.
+[2023-04-02 05:24:15] [ INFO ] [PacienteService:71] Paciente ID 22 eliminado con éxito.
+[2023-04-02 05:24:18] [ WARN ] [PacienteService:76] Error al eliminar Paciente: El paciente con ID 22 no existe.
+[2023-04-02 05:26:09] [ WARN ] [PacienteService:76] Error al eliminar Paciente: El paciente con ID 22 no existe.
+[2023-04-02 05:26:13] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:26:14] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:26:14] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:26:15] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:26:15] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:26:16] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:26:17] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:26:17] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:26:19] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:27:38] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:27:39] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:28:35] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:28:37] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:28:37] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:28:38] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:28:39] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:28:39] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:28:40] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:29:17] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:29:18] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:29:19] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:29:19] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:29:20] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:29:20] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:29:21] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:29:21] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:29:22] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:32:38] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:32:39] [ WARN ] [PacienteService:139] Paciente ID 213 no existe.
+[2023-04-02 05:53:09] [ WARN ] [PacienteService:58] Error al guardar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 05:53:12] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=28, nombre=Marcela, apellido=Saravia, dni=123, fechaIngreso=2023-04-02, domicilio=Domicilio(id=51, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 05:53:15] [ WARN ] [PacienteService:136] Paciente ID 213 no existe.
+[2023-04-02 05:53:16] [ WARN ] [PacienteService:136] Paciente ID 213 no existe.
+[2023-04-02 05:53:25] [ WARN ] [PacienteService:122] Paciente ID 2 no existe. Ingrese un ID existente para actualizar
+[2023-04-02 05:53:30] [ WARN ] [PacienteService:122] Paciente ID 22 no existe. Ingrese un ID existente para actualizar
+[2023-04-02 05:53:31] [ WARN ] [PacienteService:122] Paciente ID 22 no existe. Ingrese un ID existente para actualizar
+[2023-04-02 05:53:40] [ WARN ] [PacienteService:118] Error al actualizar Paciente: El campo 'Nombre' no puede estar vacío.
+[2023-04-02 05:53:44] [ WARN ] [PacienteService:118] Error al actualizar Paciente: El campo 'Apellido' no puede estar vacío.
+[2023-04-02 05:53:47] [ WARN ] [PacienteService:118] Error al actualizar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 05:53:52] [ INFO ] [PacienteService:114] Paciente ID 21 actualizado con éxito
+[2023-04-02 06:06:00] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: El campo 'Nombre' no puede estar vacío.
+[2023-04-02 06:06:02] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: El campo 'Apellido' no puede estar vacío.
+[2023-04-02 06:06:05] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: El campo 'DNI' no puede estar vacío.
+[2023-04-02 06:06:27] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: El campo 'Matricula' no puede estar vacío.
+[2023-04-02 06:06:28] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: El campo 'Matricula' no puede estar vacío.
+[2023-04-02 06:06:31] [ INFO ] [OdontologoService:114] Odontologo guardado con éxito: Odontologo(id=36, nombre=asfasf, apellido=asfasffas, matricula=asfasf, turnos=[])
+[2023-04-02 06:06:34] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: El DNI ya se registró para el odontologo: asfasf asfasffas.
+[2023-04-02 06:07:11] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: La Matrícula ya se registró para el odontologo: asfasf asfasffas.
+[2023-04-02 06:07:12] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: La Matrícula ya se registró para el odontologo: asfasf asfasffas.
+[2023-04-02 06:07:14] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: La Matrícula ya se registró para el odontologo: Omar Shaeicha.
+[2023-04-02 06:07:18] [ WARN ] [OdontologoService:185] Odontologo ID 1 no existe.
+[2023-04-02 06:07:20] [ WARN ] [OdontologoService:185] Odontologo ID 2 no existe.
+[2023-04-02 06:07:36] [ WARN ] [OdontologoService:185] Odontologo ID 5656546 no existe.
+[2023-04-02 06:07:39] [ WARN ] [OdontologoService:171] Odontologo ID 1 no existe. Ingrese un ID existente para actualizar
+[2023-04-02 06:07:40] [ WARN ] [OdontologoService:171] Odontologo ID 1 no existe. Ingrese un ID existente para actualizar
+[2023-04-02 06:07:43] [ WARN ] [OdontologoService:171] Odontologo ID 22 no existe. Ingrese un ID existente para actualizar
+[2023-04-02 06:07:46] [ WARN ] [OdontologoService:171] Odontologo ID 23 no existe. Ingrese un ID existente para actualizar
+[2023-04-02 06:07:53] [ INFO ] [OdontologoService:163] Odontologo ID 32 actualizado con éxito
+[2023-04-02 06:07:56] [ INFO ] [OdontologoService:163] Odontologo ID 32 actualizado con éxito
+[2023-04-02 06:08:08] [ WARN ] [OdontologoService:167] Error al actualizar Odontologo: La Matricula ya se registró para el odontologo: Oscar Gomez.
+[2023-04-02 06:08:09] [ WARN ] [OdontologoService:167] Error al actualizar Odontologo: La Matricula ya se registró para el odontologo: Oscar Gomez.
+[2023-04-02 06:08:13] [ WARN ] [OdontologoService:135] Error al eliminar Odontologo: El odontologo con ID 1 no existe.
+[2023-04-02 06:08:16] [ INFO ] [OdontologoService:130] Odontologo ID 32 eliminado con éxito.
+[2023-04-02 06:08:27] [ ERROR] [TurnoService:42] Se produjo un error
+[2023-04-02 06:09:10] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=30, fechaAltaTurno=2023-04-02, fechaDeTurno=null, horaDeTurno=null, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:09:39] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=31, fechaAltaTurno=2023-04-02, fechaDeTurno=null, horaDeTurno=null, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:09:40] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=32, fechaAltaTurno=2023-04-02, fechaDeTurno=null, horaDeTurno=null, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:10:02] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=33, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=null, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:10:35] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=34, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:11:09] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=35, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:11:10] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=36, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:11:11] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=37, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:11:11] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=38, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:11:12] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=39, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:11:12] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=40, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:11:13] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=41, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:11:13] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=42, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:11:14] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=43, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:11:14] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=44, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:13:06] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=45, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=34, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=21, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:14:59] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: JDBC exception executing SQL [select o1_0.id,o1_0.apellido,o1_0.matricula,o1_0.nombre from odontologos o1_0 where o1_0.matricula=?]; SQL [n/a]
+[2023-04-02 06:15:04] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: JDBC exception executing SQL [select o1_0.id,o1_0.apellido,o1_0.matricula,o1_0.nombre from odontologos o1_0 where o1_0.matricula=?]; SQL [n/a]
+[2023-04-02 06:15:07] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: JDBC exception executing SQL [select o1_0.id,o1_0.apellido,o1_0.matricula,o1_0.nombre from odontologos o1_0 where o1_0.matricula=?]; SQL [n/a]
+[2023-04-02 06:15:44] [ WARN ] [PacienteService:58] Error al guardar Paciente: JDBC exception executing SQL [select p1_0.id,p1_0.apellido,p1_0.dni,p1_0.domicilio_id,p1_0.fecha_ingreso,p1_0.nombre from pacientes p1_0 where p1_0.dni=?]; SQL [n/a]
+[2023-04-02 06:16:06] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=1, nombre=Marcela, apellido=Saravia, dni=123, fechaIngreso=2023-04-02, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 06:16:07] [ WARN ] [PacienteService:58] Error al guardar Paciente: El DNI ya se registró para el paciente: Marcela Saravia.
+[2023-04-02 06:16:13] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=2, nombre=Marcela, apellido=Saravia, dni=12334, fechaIngreso=2023-04-02, domicilio=Domicilio(id=2, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 06:16:15] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=3, nombre=Marcela, apellido=Saravia, dni=123345, fechaIngreso=2023-04-02, domicilio=Domicilio(id=3, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 06:16:24] [ WARN ] [PacienteService:136] Paciente ID 23 no existe.
+[2023-04-02 06:16:29] [ INFO ] [OdontologoService:114] Odontologo guardado con éxito: Odontologo(id=1, nombre=3, apellido=3, matricula=3, turnos=[])
+[2023-04-02 06:16:30] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: La Matrícula ya se registró para el odontologo: 3 3.
+[2023-04-02 06:16:31] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: La Matrícula ya se registró para el odontologo: 3 3.
+[2023-04-02 06:16:32] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: La Matrícula ya se registró para el odontologo: 3 3.
+[2023-04-02 06:16:33] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: La Matrícula ya se registró para el odontologo: 3 3.
+[2023-04-02 06:16:36] [ WARN ] [OdontologoService:185] Odontologo ID 3 no existe.
+[2023-04-02 06:16:39] [ WARN ] [OdontologoService:185] Odontologo ID 3 no existe.
+[2023-04-02 06:16:40] [ WARN ] [OdontologoService:185] Odontologo ID 3 no existe.
+[2023-04-02 06:16:41] [ WARN ] [OdontologoService:185] Odontologo ID 3 no existe.
+[2023-04-02 06:16:48] [ WARN ] [PacienteService:136] Paciente ID 4 no existe.
+[2023-04-02 06:16:56] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: La Matrícula ya se registró para el odontologo: 3 3.
+[2023-04-02 06:16:58] [ INFO ] [OdontologoService:114] Odontologo guardado con éxito: Odontologo(id=2, nombre=3, apellido=3, matricula=2, turnos=[])
+[2023-04-02 06:17:00] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: La Matrícula ya se registró para el odontologo: 3 3.
+[2023-04-02 06:17:03] [ INFO ] [OdontologoService:114] Odontologo guardado con éxito: Odontologo(id=3, nombre=3, apellido=3, matricula=4, turnos=[])
+[2023-04-02 06:17:12] [ WARN ] [OdontologoService:185] Odontologo ID 4 no existe.
+[2023-04-02 06:17:20] [ WARN ] [OdontologoService:185] Odontologo ID 214142142142 no existe.
+[2023-04-02 06:17:26] [ WARN ] [OdontologoService:171] Odontologo ID 32 no existe. Ingrese un ID existente para actualizar
+[2023-04-02 06:17:28] [ INFO ] [OdontologoService:163] Odontologo ID 1 actualizado con éxito
+[2023-04-02 06:17:31] [ WARN ] [OdontologoService:167] Error al actualizar Odontologo: La Matricula ya se registró para el odontologo: Juan Quiroga.
+[2023-04-02 06:17:51] [ INFO ] [OdontologoService:163] Odontologo ID 2 actualizado con éxito
+[2023-04-02 06:17:53] [ WARN ] [OdontologoService:135] Error al eliminar Odontologo: El odontologo con ID 32 no existe.
+[2023-04-02 06:17:56] [ INFO ] [OdontologoService:130] Odontologo ID 3 eliminado con éxito.
+[2023-04-02 06:18:04] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=4, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:19:10] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:19:16] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=2, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:19:17] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=3, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:19:17] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=4, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:19:18] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=5, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:19:32] [ INFO ] [TurnoService:52] Turno ID 1 eliminado con éxito.
+[2023-04-02 06:20:33] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=6, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:20:34] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=7, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:20:34] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=8, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:20:35] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=9, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:20:35] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=10, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:20:36] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=11, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:20:36] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=12, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:20:37] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=13, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:20:38] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=14, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:21:04] [ INFO ] [TurnoService:52] Turno ID 14 eliminado con éxito.
+[2023-04-02 06:25:34] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=15, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:25:35] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=16, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:26:30] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=17, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=2, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:26:37] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=18, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=2, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:30:13] [ INFO ] [OdontologoService:114] Odontologo guardado con éxito: Odontologo(id=1, nombre=1, apellido=1, matricula=1, turnos=[])
+[2023-04-02 06:30:16] [ INFO ] [OdontologoService:114] Odontologo guardado con éxito: Odontologo(id=2, nombre=2, apellido=2, matricula=2, turnos=[])
+[2023-04-02 06:30:20] [ INFO ] [OdontologoService:114] Odontologo guardado con éxito: Odontologo(id=3, nombre=3, apellido=3, matricula=3, turnos=[])
+[2023-04-02 06:30:28] [ WARN ] [OdontologoService:185] Odontologo ID 214142142142 no existe.
+[2023-04-02 06:30:45] [ INFO ] [OdontologoService:163] Odontologo ID 2 actualizado con éxito
+[2023-04-02 06:30:50] [ WARN ] [OdontologoService:167] Error al actualizar Odontologo: La Matricula ya se registró para el odontologo: Juan Quiroga.
+[2023-04-02 06:30:53] [ INFO ] [OdontologoService:163] Odontologo ID 1 actualizado con éxito
+[2023-04-02 06:30:57] [ INFO ] [OdontologoService:163] Odontologo ID 2 actualizado con éxito
+[2023-04-02 06:31:02] [ INFO ] [OdontologoService:163] Odontologo ID 3 actualizado con éxito
+[2023-04-02 06:31:09] [ WARN ] [OdontologoService:118] Error al guardar Odontologo: La Matrícula ya se registró para el odontologo: 3 3.
+[2023-04-02 06:31:11] [ INFO ] [OdontologoService:114] Odontologo guardado con éxito: Odontologo(id=4, nombre=3, apellido=3, matricula=4, turnos=[])
+[2023-04-02 06:31:14] [ INFO ] [OdontologoService:130] Odontologo ID 4 eliminado con éxito.
+[2023-04-02 06:31:24] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=1, nombre=1, apellido=1, dni=1, fechaIngreso=2023-04-02, domicilio=Domicilio(id=1, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 06:31:31] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=2, nombre=2, apellido=2, dni=2, fechaIngreso=2023-04-02, domicilio=Domicilio(id=2, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 06:31:34] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=3, nombre=3, apellido=3, dni=3, fechaIngreso=2023-04-02, domicilio=Domicilio(id=3, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 06:31:38] [ WARN ] [PacienteService:136] Paciente ID 4 no existe.
+[2023-04-02 06:31:48] [ INFO ] [PacienteService:114] Paciente ID 3 actualizado con éxito
+[2023-04-02 06:31:55] [ INFO ] [PacienteService:114] Paciente ID 3 actualizado con éxito
+[2023-04-02 06:32:02] [ INFO ] [PacienteService:114] Paciente ID 3 actualizado con éxito
+[2023-04-02 06:32:34] [ WARN ] [PacienteService:75] Error al eliminar Paciente: El paciente con ID 22 no existe.
+[2023-04-02 06:32:36] [ INFO ] [PacienteService:70] Paciente ID 3 eliminado con éxito.
+[2023-04-02 06:32:42] [ INFO ] [PacienteService:54] Paciente guardado con éxito: Paciente(id=4, nombre=3, apellido=3, dni=3, fechaIngreso=2023-04-02, domicilio=Domicilio(id=7, calle=Calle de las Magnolias, numero=1280, localidad=Moreno, provincia=Catamarca), turnos=[])
+[2023-04-02 06:32:50] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=1, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=1, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=2, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
+[2023-04-02 06:32:54] [ INFO ] [TurnoService:40] Turno guardado con éxito Turno(id=2, fechaAltaTurno=2023-04-02, fechaDeTurno=2023-07-02, horaDeTurno=17:17:17, odontologo=Odontologo(id=2, nombre=null, apellido=null, matricula=null, turnos=[]), paciente=Paciente(id=1, nombre=null, apellido=null, dni=null, fechaIngreso=null, domicilio=null, turnos=[]))
